@@ -1,0 +1,44 @@
+{
+  "products" : [
+    {
+      "id" : 0,
+      "img" : "https://www.nintendo.co.kr/front_images/news/1241/4a54c9f3888fa612cd0dacfcab000c97.jpg",
+      "title" : "젤다의 전설 시리즈"
+    },
+    {
+      "id" : 1,
+      "img" : "https://www.nintendo.co.kr/front_images/news/1247/bb6350ba82f3f12c3ac0ee812cc48399.jpg",
+      "title" : "마리오 시리즈"
+    },
+    {
+      "id" : 2,
+      "img" : "https://www.nintendo.co.kr/front_images/sw/switch/2883/90ba4949b431e7309107d9317098d2ce.jpg",
+      "title" : "포켓몬스터 시리즈"
+    },
+    {
+      "id" : 3,
+      "img" : "https://www.nintendo.co.kr/front_images/sw/switch/3032/b3d35fb0683afa1f5706fe40f3c890f4.png",
+      "title" : "파이어 엠블렘 시리즈"
+    },
+    {
+      "id" : 4,
+      "img" : "https://www.nintendo.co.kr/front_images/sw/switch/2218/146074fcb32b408c590de59e155c0b2d.jpg",
+      "title" : "별의 커비 시리즈"
+    },
+    {
+      "id" : 5,
+      "img" : "https://www.nintendo.co.kr/front_images/sw/switch/2632/e2739d219ff28005e41eac4ba3dd92ba.jpg",
+      "title" : "스플래툰 시리즈"
+    },
+    {
+      "id" : 6,
+      "img" : "https://www.nintendo.co.kr/front_images/sw/switch/469/469.jpg",
+      "title" : "동물의 숲 시리즈"
+    },
+    {
+      "id" : 7,
+      "img" : "./mCart.jpg",
+      "title" : "기타 독점 시리즈"
+    }
+  ]
+}

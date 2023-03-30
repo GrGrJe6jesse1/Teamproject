@@ -59,6 +59,7 @@ const NintendoCSA = () => {
       }
       {/* 항목 박스 클릭시 모달 발생 */}
       {/* 디자인 수정으로 보류 */}
+      {/* 모달에 DB */}
       {/* <div className="nin-modal">
         <img className='modal-img1' src="" alt="" />
         <img className='modal-img2' src="" alt="" />

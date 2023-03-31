@@ -17,10 +17,7 @@
   width: 100%;
   height: 1080px;
   background-color: #e60012;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
+  overflow: hidden;
 }
 .WELCOME-SAMUS {
   position: absolute;
@@ -100,9 +97,14 @@
   z-index: 4;
 }
 
-.nin-sw-item {
-  position: relative;
-  width: calc((100% - 80px) / 4);
-  margin: 20px 10px;
-  padding: 10px;
+.nin-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 990px;
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 15px;
+  z-index: 10;
 }

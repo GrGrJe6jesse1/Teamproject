@@ -1,5 +1,6 @@
 import React from 'react'
 import './NintendoCSA.css'
+import NInTitleCSA from './NInTitleCSA'
 import { useEffect, useState } from 'react'
 import WIEXE from './welcome-exe.gif'
 import SAMUS from './WI-Samus-.png'
@@ -13,6 +14,7 @@ import WILOGO from './logo_nin.gif'
 import villager from './WI-villager.png'
 import pikachu from './WI-pikachu-.png'
 import { Container, Row, Col } from 'react-bootstrap'
+import { Navigate } from 'react-router-dom'
 import axios from 'axios';
 
 
@@ -25,26 +27,39 @@ const NintendoCSA = () => {
   // })
 
   return (
-    <section className='nin-wrapper'>
+    <Container className='nin-wrapper'>
       {/* 임시 */}
       <img src={WIEXE} alt="WELCOME" />
 
-      <div className="nin-wi">
+      <Row className="nin-wi">
         {/* 웰컴이미지 - 몇가지 소프트타이틀 이미지 편집해서 생성 */}
         {/* 디자인 수정 웰컴이미지 정가운데 로고를 중심으로 독점타이틀 캐릭터들 바깥에서 */}
         {/* 안쪽으로 들어오는 애니메이션 효과 */}
         {/* 클릭시 각 시리즈 소개 화면으로 */}
+        {/* 메트로이드 */}
         <img className='WELCOME-SAMUS' src={SAMUS} alt="SAMUS" />
+        {/* 기타독점타이틀 */}
         <img className='WELCOME-SSBU' src={SSBU} alt="SSBU" />
+        {/* 젤다 */}
         <img className='WELCOME-Link' src={Link} alt="Link" />
+        {/* 마리오 */}
         <img className='WELCOME-MARIO' src={MARIO} alt="MARIO" />
+        {/* 파이어엠블렘 */}
         <img className='WELCOME-Alear' src={Alear} alt="Alear" />
+        {/* 스플래툰 */}
         <img className='WELCOME-Inkling' src={Inkling} alt="Inkling" />
+        {/* 로고 */}
         <img className='WELCOME-Logo' src={WILOGO} alt="LOGO-NIN" />
+        {/* 커비 */}
         <img className='WELCOME-Kirby' src={Kirby} alt="Kirby" />
+        {/* 동숲 */}
         <img className='WELCOME-villager' src={villager} alt="villager" />
+        {/* 포켓몬 */}
         <img className='WELCOME-pikachu' src={pikachu} alt="pikachu" />
-      </div>
+        <Col className='nin-modal'>
+          <NInTitleCSA/>
+        </Col>
+      </Row>
       {
         // DB로 돌릴 예정
         // 수정/ map함수로 모달또는 페이지 생성 DB 불러오기
@@ -67,7 +82,7 @@ const NintendoCSA = () => {
         <h2>게임 특징설명</h2>
         <p>간단 소개문</p>
       </div> */}
-    </section>
+    </Container>
   )
 }
 

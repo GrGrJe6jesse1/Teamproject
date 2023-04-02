@@ -56,9 +56,9 @@ const NintendoCSA = () => {
         <img className='WELCOME-villager' src={villager} alt="villager" />
         {/* 포켓몬 */}
         <img className='WELCOME-pikachu' src={pikachu} alt="pikachu" />
-        <Col className='nin-modal'>
+        {/* <Col className='nin-modal'>
           <NInTitleCSA/>
-        </Col>
+        </Col> */}
       </Row>
       {
         // DB로 돌릴 예정

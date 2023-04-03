@@ -24,17 +24,26 @@
   position: absolute;
   top: -5%;
   left: -3%;
-  width: 730px;
+  background-image: url(./WI-Samus-.png);
+  width: 680px;
+  height: 730px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   animation: fadein 3s;
 }
-
-
 
 .WELCOME-SSBU {
   position: absolute;
   top: -20%;
   left: 50%;
   transform: translateX(-50%);
+  background-image: url(./WI-SSBU.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
   animation: fadein 7s;
 }
 
@@ -42,7 +51,12 @@
   position: absolute;
   top: -5%;
   right: 8%;
+  background-image: url(./WI-Link.webp);
+  width: 600px;
   height: 700px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   animation: fadein 4s;
 }
 
@@ -50,7 +64,12 @@
   position: absolute;
   top: -3%;
   right: -10%;
-  width: 559px;
+  background-image: url(./WI-MARIO.webp);
+  width: 530px;
+  height: 570px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: 1;
   animation: fadein 5s;
 }
@@ -59,7 +78,12 @@
   position: absolute;
   left: -3%;
   bottom: -10%;
-  width: 700px;
+  background-image: url(./WI-Alear-.png);
+  width: 632px;
+  height: 810px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: 2;
   animation: fadein 4.5s;
 }
@@ -68,6 +92,12 @@
   position: absolute;
   left: 8%;
   bottom: -5%;
+  background-image: url(./WI-Inkling-.png);
+  width: 600px;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: 3;
   animation: fadein 5.5s;
 }
@@ -77,8 +107,12 @@
   top: 40%;
   left: 50%;
   transform: translateX(-50%);
+  background-image: url(./logo_nin.gif);
   width: 244px;
   height: 58px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   animation: fadein 2s;
 }
 
@@ -87,7 +121,12 @@
   left: 50%;
   bottom: -8%;
   transform: translateX(-50%);
-  width: 650px;
+  background-image: url(./WI-Kirby.png);
+  width: 600px;
+  height: 485px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: 4;
   animation: fadein 6.5s;
 }
@@ -96,7 +135,12 @@
   position: absolute;
   right: 9%;
   bottom: -8%;
-  width: 500px;
+  background-image: url(./WI-villager.png);
+  width: 450px;
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: 5;
   animation: fadein 6s;
 }
@@ -105,7 +149,12 @@
   position: absolute;
   right: -18%;
   bottom: -8%;  
+  background-image: url(./WI-pikachu-.png);
   width: 700px;
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: 4;
   animation: fadein 5s;
 }
@@ -150,5 +199,117 @@
   }
   to {
     scale: 1;
+  }
+}
+
+
+@media screen and (max-width : 768px) {
+  .WELCOME-SSBU {
+    top: 50%;
+    transform: translateX(-50%);
+    background-image: url(./WI-SSBU.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+  }
+
+  .WELCOME-SAMUS {
+    background-image: url(./metroid-icon.png);
+    top: 10px;
+    left: 5px;
+    width: 25%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .WELCOME-Link {
+    background-image: url(./zelda-icon.png);
+    top: 10px;
+    right: 5px;
+    width: 30%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .WELCOME-MARIO {
+    background-image: url(./mario-icon.webp);
+    top: 250px;
+    left: 5px;
+    width: 25%;
+    height: 190px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .WELCOME-Alear {
+    background-image: url(./FE-icon.png);
+    top: 500px;
+    left: 5px;
+    width: 24%;
+    height: 185px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .WELCOME-Inkling {
+    background-image: url(./splatoon-icon.png);
+    left: 5px;
+    bottom:5px;
+    width: 25%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .WELCOME-Kirby {
+    background-image: url(./kirby-icon.png);
+    top: 250px;
+    right: 5px;
+    transform: translateX(90%);
+    width: 25%;
+    height: 190px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .WELCOME-villager { 
+    background-image: url(./ac-ICON.png);
+    top: 500px;
+    right: 7px;
+    width: 25%;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .WELCOME-pikachu {
+    background-image: url(./pokemon-icon.webp);
+    right: 5px;
+    bottom: 5px;  
+    width: 26%;
+    height: 195px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  @keyframes fadein {
+    from {
+        scale: 4;
+    }
+    to {
+        scale: 1;
+    }
   }
 }

@@ -2,17 +2,6 @@ import React from 'react'
 import './NintendoCSA.css'
 import NInTitleCSA from './NInTitleCSA'
 import { useEffect, useState } from 'react'
-import WIEXE from './welcome-exe.gif'
-import SAMUS from './WI-Samus-.png'
-import SSBU from './WI-SSBU.webp'
-import Link from './WI-Link.webp'
-import MARIO from './WI-MARIO.webp'
-import Alear from './WI-Alear-.png'
-import Inkling from './WI-Inkling-.png'
-import Kirby from './WI-Kirby.png'
-import WILOGO from './logo_nin.gif'
-import villager from './WI-villager.png'
-import pikachu from './WI-pikachu-.png'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Navigate } from 'react-router-dom'
 import axios from 'axios';
@@ -35,9 +24,6 @@ const NintendoCSA = () => {
 
   return (
     <Container className='nin-wrapper'>
-      {/* 임시 */}
-      {/* <img src={WIEXE} alt="WELCOME" />  */}
-
       <Row className="nin-wi">
         {/* 웰컴이미지 - 몇가지 소프트타이틀 이미지 편집해서 생성 */}
         {/* 디자인 수정 웰컴이미지 정가운데 로고를 중심으로 독점타이틀 캐릭터들 바깥에서 */}
@@ -46,25 +32,25 @@ const NintendoCSA = () => {
         {/* 모달 내용물 DB로 작성하여 API 생성 */}
 
         {/* 메트로이드 */}
-        <img className='WELCOME-SAMUS' onClick={openModal} src={SAMUS} alt="SAMUS" />
+        <Col className='WELCOME-SAMUS' onClick={openModal}></Col>
         {/* 기타독점타이틀 */}
-        <img className='WELCOME-SSBU' onClick={openModal} src={SSBU} alt="SSBU" />
+        <Col className='WELCOME-SSBU' onClick={openModal}></Col>
         {/* 젤다 */}
-        <img className='WELCOME-Link' onClick={openModal} src={Link} alt="Link" />
+        <Col className='WELCOME-Link' onClick={openModal}></Col>
         {/* 마리오 */}
-        <img className='WELCOME-MARIO' onClick={openModal} src={MARIO} alt="MARIO" />
+        <Col className='WELCOME-MARIO' onClick={openModal}></Col>
         {/* 파이어엠블렘 */}
-        <img className='WELCOME-Alear' onClick={openModal} src={Alear} alt="Alear" />
+        <Col className='WELCOME-Alear' onClick={openModal}></Col>
         {/* 스플래툰 */}
-        <img className='WELCOME-Inkling' onClick={openModal} src={Inkling} alt="Inkling" />
+        <Col className='WELCOME-Inkling' onClick={openModal}></Col>
         {/* 로고 */}
-        <img className='WELCOME-Logo' src={WILOGO} alt="LOGO-NIN" />
+        <Col className='WELCOME-Logo'></Col>
         {/* 커비 */}
-        <img className='WELCOME-Kirby' onClick={openModal} src={Kirby} alt="Kirby" />
+        <Col className='WELCOME-Kirby' onClick={openModal}></Col>
         {/* 동숲 */}
-        <img className='WELCOME-villager' onClick={openModal} src={villager} alt="villager" />
+        <Col className='WELCOME-villager' onClick={openModal}></Col>
         {/* 포켓몬 */}
-        <img className='WELCOME-pikachu' onClick={openModal} src={pikachu} alt="pikachu" />
+        <Col className='WELCOME-pikachu' onClick={openModal}></Col>
 
         {/* 모달 */}
         {

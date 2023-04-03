@@ -31,6 +31,19 @@
   opacity: 0.5;
 }
 
+.nin-game-title img {
+  animation: logo 1s;
+}
+
+@keyframes logo {
+  from {
+    scale: 3;
+  }
+  to {
+    scale: 1;
+  }
+}
+
 .nin-chara {
   position: absolute;
   top: -50px;

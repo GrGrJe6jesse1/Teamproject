@@ -19,6 +19,13 @@ import axios from 'axios';
 
 
 const NintendoCSA = () => {
+  const [showModal, setShowModal] = useState(false);
+  const openModal = () => {
+    setShowModal(true);
+  }
+  const closeModal = () => {
+    setShowModal(false);
+  }
   // useEffect(() => {
   //   axios.get('http://localhost:3000/products')
   //     .then(response => {
@@ -29,36 +36,46 @@ const NintendoCSA = () => {
   return (
     <Container className='nin-wrapper'>
       {/* 임시 */}
-      <img src={WIEXE} alt="WELCOME" />
+      {/* <img src={WIEXE} alt="WELCOME" />  */}
 
       <Row className="nin-wi">
         {/* 웰컴이미지 - 몇가지 소프트타이틀 이미지 편집해서 생성 */}
         {/* 디자인 수정 웰컴이미지 정가운데 로고를 중심으로 독점타이틀 캐릭터들 바깥에서 */}
-        {/* 안쪽으로 들어오는 애니메이션 효과 */}
-        {/* 클릭시 각 시리즈 소개 화면으로 */}
+        {/* 축소이미지 페이드아웃 애니메이션 효과 */}
+        {/* 클릭시 각 시리즈 모달 발생 */}
+        {/* 모달 내용물 DB로 작성하여 API 생성 */}
+
         {/* 메트로이드 */}
-        <img className='WELCOME-SAMUS' src={SAMUS} alt="SAMUS" />
+        <img className='WELCOME-SAMUS' onClick={openModal} src={SAMUS} alt="SAMUS" />
         {/* 기타독점타이틀 */}
-        <img className='WELCOME-SSBU' src={SSBU} alt="SSBU" />
+        <img className='WELCOME-SSBU' onClick={openModal} src={SSBU} alt="SSBU" />
         {/* 젤다 */}
-        <img className='WELCOME-Link' src={Link} alt="Link" />
+        <img className='WELCOME-Link' onClick={openModal} src={Link} alt="Link" />
         {/* 마리오 */}
-        <img className='WELCOME-MARIO' src={MARIO} alt="MARIO" />
+        <img className='WELCOME-MARIO' onClick={openModal} src={MARIO} alt="MARIO" />
         {/* 파이어엠블렘 */}
-        <img className='WELCOME-Alear' src={Alear} alt="Alear" />
+        <img className='WELCOME-Alear' onClick={openModal} src={Alear} alt="Alear" />
         {/* 스플래툰 */}
-        <img className='WELCOME-Inkling' src={Inkling} alt="Inkling" />
+        <img className='WELCOME-Inkling' onClick={openModal} src={Inkling} alt="Inkling" />
         {/* 로고 */}
         <img className='WELCOME-Logo' src={WILOGO} alt="LOGO-NIN" />
         {/* 커비 */}
-        <img className='WELCOME-Kirby' src={Kirby} alt="Kirby" />
+        <img className='WELCOME-Kirby' onClick={openModal} src={Kirby} alt="Kirby" />
         {/* 동숲 */}
-        <img className='WELCOME-villager' src={villager} alt="villager" />
+        <img className='WELCOME-villager' onClick={openModal} src={villager} alt="villager" />
         {/* 포켓몬 */}
-        <img className='WELCOME-pikachu' src={pikachu} alt="pikachu" />
-        {/* <Col className='nin-modal'>
-          <NInTitleCSA/>
-        </Col> */}
+        <img className='WELCOME-pikachu' onClick={openModal} src={pikachu} alt="pikachu" />
+
+        {/* 모달 */}
+        {
+          showModal == true ? 
+          <Col className='modalback' onClick={closeModal}>
+            <div className='nin-modal' onClick={e => e.stopPropagation()}>
+              <NInTitleCSA/>
+            </div>
+          </Col> : null
+        }
+        
       </Row>
       {
         // DB로 돌릴 예정
@@ -72,16 +89,6 @@ const NintendoCSA = () => {
         //   )         
         // })
       }
-      {/* 항목 박스 클릭시 모달 발생 */}
-      {/* 디자인 수정으로 보류 */}
-      {/* 모달에 DB */}
-      {/* <div className="nin-modal">
-        <img className='modal-img1' src="" alt="" />
-        <img className='modal-img2' src="" alt="" />
-        <img className='modal-img3' src="" alt="" />
-        <h2>게임 특징설명</h2>
-        <p>간단 소개문</p>
-      </div> */}
     </Container>
   )
 }

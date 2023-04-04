@@ -58,6 +58,8 @@ const NintendoCSA = () => {
           <Col className='modalback' onClick={closeModal}>
             <div className='nin-modal' onClick={e => e.stopPropagation()}>
               <NInTitleCSA/>
+              <button id='btn-left'>좌</button>
+              <button id='btn-right'>우</button>
             </div>
           </Col> : null
         }

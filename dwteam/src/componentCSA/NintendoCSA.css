@@ -24,7 +24,7 @@
   position: absolute;
   top: -5%;
   left: -3%;
-  background-image: url(./WI-Samus-.png);
+  background-image: url(./welcome/WI-Samus-.png);
   width: 680px;
   height: 730px;
   background-size: contain;
@@ -38,7 +38,7 @@
   top: -20%;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url(./WI-SSBU.webp);
+  background-image: url(./welcome/WI-SSBU.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -51,7 +51,7 @@
   position: absolute;
   top: -5%;
   right: 8%;
-  background-image: url(./WI-Link.webp);
+  background-image: url(./welcome/WI-Link.webp);
   width: 600px;
   height: 700px;
   background-size: contain;
@@ -64,7 +64,7 @@
   position: absolute;
   top: -3%;
   right: -10%;
-  background-image: url(./WI-MARIO.webp);
+  background-image: url(./welcome/WI-MARIO.webp);
   width: 530px;
   height: 570px;
   background-size: cover;
@@ -78,7 +78,7 @@
   position: absolute;
   left: -3%;
   bottom: -10%;
-  background-image: url(./WI-Alear-.png);
+  background-image: url(./welcome/WI-Alear-.png);
   width: 632px;
   height: 810px;
   background-size: cover;
@@ -92,7 +92,7 @@
   position: absolute;
   left: 8%;
   bottom: -5%;
-  background-image: url(./WI-Inkling-.png);
+  background-image: url(./welcome/WI-Inkling-.png);
   width: 600px;
   height: 700px;
   background-size: cover;
@@ -107,7 +107,7 @@
   top: 40%;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url(./logo_nin.gif);
+  background-image: url(./welcome/logo_nin.gif);
   width: 244px;
   height: 58px;
   background-size: cover;
@@ -121,7 +121,7 @@
   left: 50%;
   bottom: -8%;
   transform: translateX(-50%);
-  background-image: url(./WI-Kirby.png);
+  background-image: url(./welcome/WI-Kirby.png);
   width: 600px;
   height: 485px;
   background-size: cover;
@@ -135,7 +135,7 @@
   position: absolute;
   right: 9%;
   bottom: -8%;
-  background-image: url(./WI-villager.png);
+  background-image: url(./welcome/WI-villager.png);
   width: 450px;
   height: 580px;
   background-size: cover;
@@ -149,7 +149,7 @@
   position: absolute;
   right: -18%;
   bottom: -8%;  
-  background-image: url(./WI-pikachu-.png);
+  background-image: url(./welcome/WI-pikachu-.png);
   width: 700px;
   height: 800px;
   background-size: cover;
@@ -186,7 +186,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
-  height: 990px;
+  height: 100vh;
   box-shadow: 5px 5px 5px gray;
   border-radius: 15px;
   z-index: 10;
@@ -207,16 +207,12 @@
   .WELCOME-SSBU {
     top: 50%;
     transform: translateX(-50%);
-    background-image: url(./WI-SSBU.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 400px;
     height: 400px;
   }
 
   .WELCOME-SAMUS {
-    background-image: url(./metroid-icon.png);
+    background-image: url(./welcome/metroid-icon.png);
     top: 10px;
     left: 5px;
     width: 25%;
@@ -227,7 +223,7 @@
   }
   
   .WELCOME-Link {
-    background-image: url(./zelda-icon.png);
+    background-image: url(./welcome/zelda-icon.png);
     top: 10px;
     right: 5px;
     width: 30%;
@@ -238,7 +234,7 @@
   }
   
   .WELCOME-MARIO {
-    background-image: url(./mario-icon.webp);
+    background-image: url(./welcome/mario-icon.webp);
     top: 250px;
     left: 5px;
     width: 25%;
@@ -249,7 +245,7 @@
   }
   
   .WELCOME-Alear {
-    background-image: url(./FE-icon.png);
+    background-image: url(./welcome/FE-icon.png);
     top: 500px;
     left: 5px;
     width: 24%;
@@ -260,7 +256,7 @@
   }
   
   .WELCOME-Inkling {
-    background-image: url(./splatoon-icon.png);
+    background-image: url(./welcome/splatoon-icon.png);
     left: 5px;
     bottom:5px;
     width: 25%;
@@ -271,7 +267,7 @@
   }
   
   .WELCOME-Kirby {
-    background-image: url(./kirby-icon.png);
+    background-image: url(./welcome/kirby-icon.png);
     top: 250px;
     right: 5px;
     transform: translateX(90%);
@@ -283,7 +279,7 @@
   }
   
   .WELCOME-villager { 
-    background-image: url(./ac-ICON.png);
+    background-image: url(./welcome/ac-ICON.png);
     top: 500px;
     right: 7px;
     width: 25%;
@@ -294,7 +290,7 @@
   }
   
   .WELCOME-pikachu {
-    background-image: url(./pokemon-icon.webp);
+    background-image: url(./welcome/pokemon-icon.webp);
     right: 5px;
     bottom: 5px;  
     width: 26%;

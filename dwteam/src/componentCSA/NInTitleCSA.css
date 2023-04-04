@@ -11,7 +11,7 @@
 
 .title-back {
   position: relative;
-  background-image: url(./zelda-back.png);
+  background-image: url(./zeldaSS/zelda-back.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@
   position: absolute;
   top: -50px;
   right: 40px;
-  background-image: url(./WI-Link.webp);
+  background-image: url(./welcome/WI-Link.webp);
   width: 50%;
   height: 120%;
   background-size: cover;
@@ -59,39 +59,102 @@
 
 .nin-Sshot {
   position: absolute;
-  bottom: 30%;
+  bottom: 20%;
   width: 300vw;
-  height: 200px;
+  height: 300px;
   display: flex;
-  background-color: lawngreen;
   z-index: 5;
-  opacity: 0.5;
 }
 
 .nin-sw-Sshot {
-  background-image: url(./news7.png);
+  background-image: url(./zeldaSS/zeldaSS1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: calc((100vw - 20px) / 5);
+  width: calc((100vw - 20px) / 4);
   margin: 0 10px;
   z-index: 3;
 }
 
+.SSback {
+  position: fixed;
+  top: -100%;
+  left: -20%;
+  width: 200vw;
+  height: 200vh;
+  background-color: #161515;
+  z-index: 19;
+  opacity: 0.5;
+  border: 4px solid red;
+}
+
+.largeSS {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(./zeldaSS/zeldaSS1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 880px;
+  z-index: 20;
+  animation: SS 1s;
+}
+
+@keyframes SS {
+  from {
+    scale: .5;
+  }
+  to {
+    scale: 1;
+  }
+}
+
 .nin-series {
   position: absolute;
-  bottom: 10px;
+  bottom: 5px;
   left: 10%;
-  width: 40%;
-  height: 300px;
-  background-color: darkgreen;
-  opacity: 0.5;
+  width: 300px;
+  height: 250px;
+  /* background-color: darkgreen; */
+  border-radius: 20px;
+  /* opacity: 0.5; */
   display: flex;
 }
 
+.series-title {
+  background-image: url(./zeldaSS/zelda-icon.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 95%;
+}
+
+.title-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: darkgreen;
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+  border: double 3px red;
+  z-index: 20;
+}
+
 .nin-sw-item {
-  background-image: url(./news7.png);
-  width: calc((100% - 80px) / 4);
-  margin: 20px 10px;
-  padding: 10px;
+  background-image: url(./zeldaSS/zelda-bw.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 40%;
+  margin: 10px;
 }

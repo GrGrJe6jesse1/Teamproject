@@ -1,6 +1,8 @@
 import React from 'react'
 import './NInTitleCSA.css'
-import zeldalogo from './zelda_logo.webp'
+import ScreenshotList from './SSlistCSA'
+import ETCtitleCSA from './ETCtitleCSA'
+import zeldalogo from './zeldaSS/zelda_logo.webp'
 import { Container, Row, Col } from 'react-bootstrap'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
@@ -17,22 +19,10 @@ const NInTitleCSA = () => {
         <Col className='nin-chara'>
         {/* 타이틀 캐릭터 이미지 */}
         </Col>
-        <Col className='nin-Sshot'>
         {/* 겜스샷 또는 영상 3~4 컨텐츠 */}
-          {[1,2,3,4,4,5,6].map(function(){
-            return(
-              <div className="nin-sw-Sshot"></div>
-            )
-          })}
-        </Col>
-        <Col className='nin-series'>
+        <ScreenshotList/>
         {/* 시리즈게임 */}
-          {[1,2,3,4].map(function(){
-              return(
-                <div className="nin-sw-item"></div>
-              )
-            })}
-        </Col>
+        <ETCtitleCSA/>
       </Row>
     </Container>
   )

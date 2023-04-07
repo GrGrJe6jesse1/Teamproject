@@ -66,6 +66,11 @@
   flex-wrap: wrap;
   z-index: 5;
   overflow: visible;
+  overflow-x: scroll;
+}
+
+.nin-Sshot::-webkit-scrollbar {
+  display: block;
 }
 
 .nin-Sshot button {

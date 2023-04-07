@@ -23,14 +23,6 @@ const SSlistCSA = () => {
       img: "https://www.nintendo.co.kr/images/renew/software/switch/aaaaa/img_switch_aaaaa_large_thumb05.jpg"
     }
   ]
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  };
   
 
   const [viewModal, setviewModal] = useState(false);
@@ -46,17 +38,15 @@ const SSlistCSA = () => {
       {
         SSLIST.map(function(a, img){
           return(
-            <Slider {...settings}>
-              <div className='nin-sw-Sshot' key={img}>
-                {/* <h1>클릭시 스크린샷 모달 생성</h1> */}
-                <img src={a.img} onClick={SSModal} alt="zelda-screenshot" />
-              </div>
-            </Slider>
+            <div className='nin-sw-Sshot' key={img}>
+              {/* <h1>클릭시 스크린샷 모달 생성</h1> */}
+              <img src={a.img} onClick={SSModal} alt="zelda-screenshot" />
+            </div>  
           )
         })
       }
-      {/* <button id='SS-btn-l'>좌</button>
-      <button id='SS-btn-r'>우</button> */}
+      <button id='SS-btn-l'>좌</button>
+      <button id='SS-btn-r'>우</button>
       { viewModal == true ? 
         <div className='SSback' onClick={closeSSModal}></div>   
       : null }

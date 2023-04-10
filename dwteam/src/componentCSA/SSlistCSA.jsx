@@ -2,8 +2,8 @@ import React from 'react'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import Slider from "react-slick";
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import ScrollMenu from 'react-horizontal-scrolling-menu'
+
 
 
 
@@ -33,20 +33,33 @@ const SSlistCSA = () => {
     setviewModal(false);
   }
 
+  const [settings, setSettings] = useState({
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay: true,
+    autoplaySpeed: 3000
+  });
+
   return (
     <div className='nin-Sshot'>
       {
-        SSLIST.map(function(a, img){
+        SSLIST.map(function(a, i){
           return(
-            <div className='nin-sw-Sshot' key={img}>
+            <div className='nin-sw-Sshot' key={i}>
               {/* <h1>클릭시 스크린샷 모달 생성</h1> */}
-              <img src={a.img} onClick={SSModal} alt="zelda-screenshot" />
+              <Slider {...settings}>
+                <img src={a.img} onClick={SSModal} alt="zelda-screenshot" />
+              </Slider>
             </div>  
           )
         })
       }
-      <button id='SS-btn-l'>좌</button>
-      <button id='SS-btn-r'>우</button>
+      {/* <button id='SS-btn-l'>좌</button>
+      <button id='SS-btn-r'>우</button> */}
       { viewModal == true ? 
         <div className='SSback' onClick={closeSSModal}></div>   
       : null }

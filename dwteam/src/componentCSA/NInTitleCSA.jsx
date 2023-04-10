@@ -5,15 +5,28 @@ import ETCtitleCSA from './ETCtitleCSA'
 import zeldalogo from './zeldaSS/zelda_logo.webp'
 import { Container, Row, Col } from 'react-bootstrap'
 import { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 
-const NInTitleCSA = () => {
+const NInTitleCSA = ({menu}) => {
+  const [titles, setTitles] = useState([]);
+
+  useEffect(() => {
+    // setTitles(NinGameDB.titles)
+  },[]);
+
+
+  // const navigate = useNavigate();
+  // const showTitle = () => {
+  //   navigate(`/nintendoTitle/${menu.id}`)
+  // }
+
+
   return (
     <Container className='title-container'>
       <Row className='title-back'>
         {/* 백그라운드영상 또는 이미지 */}
         <Col className='nin-game-title'>
-        <img src={zeldalogo} style={{width: '500px'}} alt="logo" />
+        <img src={menu?.titleLogo} style={{width: '500px'}} alt="logo" />
         <p>소개글</p>
         </Col>
         <Col className='nin-chara'>

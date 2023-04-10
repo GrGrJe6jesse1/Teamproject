@@ -8,6 +8,25 @@ import axios from 'axios';
 
 
 const NintendoCSA = () => {
+  const [titles, setTitles] = useState([1,2,3]);
+
+  async function getTitles() {
+    try {
+      //응답 성공
+      const response = await axios.get('./NinGameDB.json');
+      console.log(response);
+    } catch (error) {
+      //응답 실패
+      console.error(error);
+    }
+
+    setTitles(axios)
+  }
+
+  useEffect(()=> {
+    getTitles()
+  }, []);
+
   const [showModal, setShowModal] = useState(false);
   const openModal = () => {
     setShowModal(true);
@@ -15,12 +34,7 @@ const NintendoCSA = () => {
   const closeModal = () => {
     setShowModal(false);
   }
-  // useEffect(() => {
-  //   axios.get('http://localhost:3000/products')
-  //     .then(response => {
-  //       console.log(response);
-  //     })
-  // })
+  
 
   return (
     <Container className='nin-wrapper'>
@@ -55,28 +69,22 @@ const NintendoCSA = () => {
         {/* 모달 */}
         {
           showModal == true ? 
-          <Col className='modalback' onClick={closeModal}>
-            <div className='nin-modal' onClick={e => e.stopPropagation()}>
-              <NInTitleCSA/>
-              <button id='btn-left'>좌</button>
-              <button id='btn-right'>우</button>
-            </div>
-          </Col> : null
+          <div className='modalback' onClick={closeModal}>
+            {
+              titles.map((menu, i) => {
+                return (
+                  <Col className='nin-modal' onClick={e => e.stopPropagation()} key={i}>
+                    <NInTitleCSA menu={menu}/>
+                    <button id='btn-left'>좌</button>
+                    <button id='btn-right'>우</button>
+                  </Col>
+                )
+              })
+            }
+          </div> : null
         }
         
       </Row>
-      {
-        // DB로 돌릴 예정
-        // 수정/ map함수로 모달또는 페이지 생성 DB 불러오기
-        // [1,2,3,4,5,6,7,8].map((num) =>{
-        //   return (
-        //     <div className="nin-sw-item">
-        //       <img src="https://www.nintendo.co.kr/front_images/news/1241/4a54c9f3888fa612cd0dacfcab000c97.jpg" alt="zelda" />
-        //       <h2>Titie</h2>
-        //     </div>
-        //   )         
-        // })
-      }
     </Container>
   )
 }

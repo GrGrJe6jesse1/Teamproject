@@ -35,15 +35,15 @@
 
 .WELCOME-SSBU {
   position: absolute;
-  top: -20%;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
   background-image: url(./welcome/WI-SSBU.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   animation: fadein 7s;
 }
 

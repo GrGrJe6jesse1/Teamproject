@@ -69,9 +69,6 @@
   overflow-x: scroll;
 }
 
-.nin-Sshot::-webkit-scrollbar {
-  display: block;
-}
 
 .nin-Sshot button {
   width: 50px;
@@ -193,6 +190,7 @@
 
 .nin-sw-item {
   background-image: url(./zeldaSS/zelda-bw.jpg);
+  background-image: url();
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

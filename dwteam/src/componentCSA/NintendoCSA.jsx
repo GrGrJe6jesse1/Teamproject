@@ -3,28 +3,33 @@ import './NintendoCSA.css'
 import NInTitleCSA from './NInTitleCSA'
 import { useEffect, useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import { Navigate } from 'react-router-dom'
-import axios from 'axios';
 
 
 const NintendoCSA = () => {
-  const [titles, setTitles] = useState([1,2,3]);
+  const [productList, setProductList] = useState(null);
 
-  async function getTitles() {
-    try {
-      //응답 성공
-      const response = await axios.get('./NinGameDB.json');
-      console.log(response);
-    } catch (error) {
-      //응답 실패
-      console.error(error);
-    }
+  // const getProducts = async () => {
+  //   let url = "http://localhost:5000/nintendoTitle"
+  //   let reponse = await fetch(url);
+  //   let data = await reponse.json();
+  //   console.log(data);
 
-    setTitles(axios)
-  }
+  //   setProductList(data)
+  // }
 
-  useEffect(()=> {
-    getTitles()
+  // useEffect(()=> {
+  //   getProducts()
+  // }, []);
+
+
+  useEffect(() => {
+    fetch("http://localhost:5000/nintendoTitle")
+      .then(reponse => {
+        return reponse.json();
+      })
+      .then(data => {
+        setProductList(data);
+      });
   }, []);
 
   const [showModal, setShowModal] = useState(false);
@@ -70,20 +75,17 @@ const NintendoCSA = () => {
         {
           showModal == true ? 
           <div className='modalback' onClick={closeModal}>
-            {
-              titles.map((menu, i) => {
-                return (
-                  <Col className='nin-modal' onClick={e => e.stopPropagation()} key={i}>
-                    <NInTitleCSA menu={menu}/>
-                    <button id='btn-left'>좌</button>
-                    <button id='btn-right'>우</button>
-                  </Col>
-                )
-              })
-            }
+            {productList.map((menu, i) => {
+              return (
+                <Col className='nin-modal' onClick={e => e.stopPropagation()} key={i}>
+                  {productList && <NInTitleCSA menu={menu}/>}
+                  <button id='btn-left'>좌</button>
+                  <button id='btn-right'>우</button>
+                </Col>
+              )
+            })}
           </div> : null
         }
-        
       </Row>
     </Container>
   )

@@ -2,23 +2,33 @@ import React from 'react'
 import './NInTitleCSA.css'
 import ScreenshotList from './SSlistCSA'
 import ETCtitleCSA from './ETCtitleCSA'
-import zeldalogo from './zeldaSS/zelda_logo.webp'
 import { Container, Row, Col } from 'react-bootstrap'
 import { useEffect, useState } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
 
-const NInTitleCSA = ({menu}) => {
-  const [titles, setTitles] = useState([]);
+const NInTitleCSA = () => {
+  const [product, setProduct] = useState(null)
+
+  // const getProductDetail = async () => {
+  //   let url = `http://localhost:5000/nintendoTitle`
+  //   let response = await fetch(url);
+  //   let data = await response.json();
+  //   console.log(data)
+  //   setProduct(data)
+  // }
+
+  // useEffect(() => {
+  //   getProductDetail()
+  // }, [])
 
   useEffect(() => {
-    // setTitles(NinGameDB.titles)
-  },[]);
-
-
-  // const navigate = useNavigate();
-  // const showTitle = () => {
-  //   navigate(`/nintendoTitle/${menu.id}`)
-  // }
+    fetch("http://localhost:5000/nintendoTitle")
+      .then(reponse => {
+        return reponse.json();
+      })
+      .then(data => {
+        setProduct(data);
+      });
+  }, []);
 
 
   return (
@@ -26,8 +36,8 @@ const NInTitleCSA = ({menu}) => {
       <Row className='title-back'>
         {/* 백그라운드영상 또는 이미지 */}
         <Col className='nin-game-title'>
-        <img src={menu?.titleLogo} style={{width: '500px'}} alt="logo" />
-        <p>소개글</p>
+        <img src={product?.titleLogo} style={{width: '500px'}} alt="logo" />
+        <p>{product?.intro}</p>
         </Col>
         <Col className='nin-chara'>
         {/* 타이틀 캐릭터 이미지 */}

@@ -194,151 +194,133 @@
       "chara": "./splatoonSS/WI-Inkling-.png",
       "SSList": [
         {
-          "img": "./splatoonSS/zeldaSS1.jpg"
+          "img": "./splatoonSS/spss1.jpg"
         },
         {
-          "img": "./splatoonSS/zeldaSS2.jpg"
+          "img": "./splatoonSS/spss2.jpg"
         },
         {
-          "img": "./splatoonSS/zeldaSS3.jpg"
+          "img": "./splatoonSS/spss3.jpg"
         },
         {
-          "img": "./splatoonSS/zeldaSS4.jpg"
+          "img": "./splatoonSS/spss4.jpg"
         },
         {
-          "img": "./splatoonSS/zeldaSS4.jpg"
+          "img": "./splatoonSS/spss5.jpg"
         }
       ],
       "symbol": "./splatoonSS/splatoon-icon.png",
       "ETCList": [
         {
-          "img": "./splatoonSS/zeldaSS1.jpg"
-        },
-        {
-          "img": "./splatoonSS/zeldaSS1.jpg"
-        },
-        {
-          "img": "./splatoonSS/zeldaSS1.jpg"
-        },
-        {
-          "img": "./splatoonSS/zeldaSS1.jpg"
+          "img": "./splatoonSS/sptitle1.jpg"
         }
       ]
     },
     {
       "id" : 6,
       "titleLogo": "./kirbySS/kirby_logo.webp",
-      "back": "./kirbySS/zelda-back.png",
+      "back": "./kirbySS/kirby-back.jpg",
       "intro": "별의 커비",
-      "chara": "./kirbySS/WI-Link.webp",
+      "chara": "./kirbySS/WI-Kirby.png",
       "SSList": [
         {
-          "img": "./kirbySS/zeldaSS1.jpg"
+          "img": "./kirbySS/kirbyss1.jpg"
         },
         {
-          "img": "./kirbySS/zeldaSS2.jpg"
+          "img": "./kirbySS/kirbyss2.jpg"
         },
         {
-          "img": "./kirbySS/zeldaSS3.jpg"
+          "img": "./kirbySS/kirbyss3.jpg"
         },
         {
-          "img": "./kirbySS/zeldaSS4.jpg"
+          "img": "./kirbySS/kirbyss4.jpg"
         },
         {
-          "img": "./kirbySS/zeldaSS4.jpg"
+          "img": "./kirbySS/kirbyss5.jpg"
         }
       ],
-      "symbol": "./kirbySS/zelda-icon.png",
+      "symbol": "./kirbySS/kirby-icon.png",
       "ETCList": [
         {
-          "img": "./kirbySS/zeldaSS1.jpg"
+          "img": "./kirbySS/kirbytitle1.png"
         },
         {
-          "img": "./kirbySS/zeldaSS1.jpg"
+          "img": "./kirbySS/kirbytitle2.jpg"
         },
         {
-          "img": "./kirbySS/zeldaSS1.jpg"
+          "img": "./kirbySS/kirbytitle3.jpg"
         },
         {
-          "img": "./kirbySS/zeldaSS1.jpg"
+          "img": "./kirbySS/kirbytitle4.jpg"
         }
       ]
     },
     {
       "id" : 7,
       "titleLogo": "./ACSS/visual_logo__pc.png",
-      "back": "./ACSS/zelda-back.png",
+      "back": "./ACSS/AC-back.jpg",
       "intro": "동물의 숲",
-      "chara": "./ACSS/WI-Link.webp",
+      "chara": "./ACSS/WI-villager.png",
       "SSList": [
         {
-          "img": "./ACSS/zeldaSS1.jpg"
+          "img": "./ACSS/ACss1.jpg"
         },
         {
-          "img": "./ACSS/zeldaSS2.jpg"
+          "img": "./ACSS/ACss2.jpg"
         },
         {
-          "img": "./ACSS/zeldaSS3.jpg"
+          "img": "./ACSS/ACss3.jpg"
         },
         {
-          "img": "./ACSS/zeldaSS4.jpg"
+          "img": "./ACSS/ACss4.jpg"
         },
         {
-          "img": "./ACSS/zeldaSS4.jpg"
+          "img": "./ACSS/ACss5.jpg"
         }
       ],
-      "symbol": "./ACSS/zelda-icon.png",
+      "symbol": "./ACSS/ac-ICON.png",
       "ETCList": [
         {
-          "img": "./ACSS/zeldaSS1.jpg"
-        },
-        {
-          "img": "./ACSS/zeldaSS1.jpg"
-        },
-        {
-          "img": "./ACSS/zeldaSS1.jpg"
-        },
-        {
-          "img": "./ACSS/zeldaSS1.jpg"
+          "img": "./ACSS/AC-title.jpg"
         }
       ]
     },
     {
       "id" : 8,
       "titleLogo": "./pokemonSS/pokemon_logo.webp",
-      "back": "./pokemonSS/zelda-back.png",
+      "back": "./pokemonSS/pokemon-back.jpg",
       "intro": "포켓몬스터",
-      "chara": "./pokemonSS/WI-Link.webp",
+      "chara": "./pokemonSS/WI-pikachu-.png",
       "SSList": [
         {
-          "img": "./pokemonSS/zeldaSS1.jpg"
+          "img": "./pokemonSS/pkss1.png"
         },
         {
-          "img": "./pokemonSS/zeldaSS2.jpg"
+          "img": "./pokemonSS/pkss2.jpg"
         },
         {
-          "img": "./pokemonSS/zeldaSS3.jpg"
+          "img": "./pokemonSS/pkss3.png"
         },
         {
-          "img": "./pokemonSS/zeldaSS4.jpg"
+          "img": "./pokemonSS/pkss4.jpg"
         },
         {
-          "img": "./pokemonSS/zeldaSS4.jpg"
+          "img": "./pokemonSS/pkss5.png"
         }
       ],
-      "symbol": "./pokemonSS/zelda-icon.png",
+      "symbol": "./pokemonSS/pokemon-icon.webp",
       "ETCList": [
         {
-          "img": "./pokemonSS/zeldaSS1.jpg"
+          "img": "./pokemonSS/pktitle-arseus.jpg"
         },
         {
-          "img": "./pokemonSS/zeldaSS1.jpg"
+          "img": "./pokemonSS/pktitledipr.jpg"
         },
         {
-          "img": "./pokemonSS/zeldaSS1.jpg"
+          "img": "./pokemonSS/pktitlescvi.jpg"
         },
         {
-          "img": "./pokemonSS/zeldaSS1.jpg"
+          "img": "./pokemonSS/pktitleswsh.jpg"
         }
       ]
     }

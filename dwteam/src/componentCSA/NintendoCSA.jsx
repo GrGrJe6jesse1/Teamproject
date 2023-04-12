@@ -29,7 +29,6 @@ const NintendoCSA = () => {
         {/* 디자인 수정 웰컴이미지 정가운데 로고를 중심으로 독점타이틀 캐릭터들 바깥에서 */}
         {/* 축소이미지 페이드아웃 애니메이션 효과 */}
         {/* 클릭시 각 시리즈 모달 발생 */}
-        {/* 모달 내용물 DB로 작성하여 API 생성 */}
 
         {/* 메트로이드 */}
         <Col className='WELCOME-SAMUS' onClick={openModal}></Col>

@@ -2,40 +2,34 @@
   "nintendoTitle": [
     {
       "id" : 0,
-      "titleLogo": "./metroidSS/metroid_logo.webp",
-      "back": "./metroidSS/zelda-back.png",
+      "titleLogo": "https://static.wikia.nocookie.net/nintendo/images/8/8c/Metroidlogo.png/revision/latest/thumbnail/width/360/height/360?cb=20200527100458&path-prefix=en",
+      "back": "./metroidSS/metroid-back.jpg",
       "intro": "메트로이드",
-      "chara": "./metroidSS/WI-Link.webp",
+      "chara": "./metroidSS/WI-Samus-.png",
       "SSList": [
         {
-          "img": "./metroidSS/zeldaSS1.jpg"
+          "img": "./metroidSS/mtss1.jpg"
         },
         {
-          "img": "./metroidSS/zeldaSS2.jpg"
+          "img": "./metroidSS/mtss2.jpg"
         },
         {
-          "img": "./metroidSS/zeldaSS3.jpg"
+          "img": "./metroidSS/mtss3.jpg"
         },
         {
-          "img": "./metroidSS/zeldaSS4.jpg"
+          "img": "./metroidSS/mtss4.jpg"
         },
         {
-          "img": "./metroidSS/zeldaSS4.jpg"
+          "img": "./metroidSS/mtss5.jpg"
         }
       ],
-      "symbol": "./metroidSS/zelda-icon.png",
+      "symbol": "./metroidSS/metroid-icon.png",
       "ETCList": [
         {
-          "img": "./metroidSS/zeldaSS1.jpg"
+          "img": "./metroidSS/mttitle1.jpg"
         },
         {
-          "img": "./metroidSS/zeldaSS1.jpg"
-        },
-        {
-          "img": "./metroidSS/zeldaSS1.jpg"
-        },
-        {
-          "img": "./metroidSS/zeldaSS1.jpg"
+          "img": "./metroidSS/mttitle2.jpg"
         }
       ]
     },
@@ -120,87 +114,84 @@
     {
       "id" : 3,
       "titleLogo": "./MarioSS/mario_logo.webp",
-      "back": "./MarioSS/zelda-back.png",
+      "back": "./MarioSS/mario-back.jpg",
       "intro": "마리오",
-      "chara": "./MarioSS/WI-Link.webp",
+      "chara": "./MarioSS/WI-MARIO.webp",
       "SSList": [
         {
-          "img": "./MarioSS/zeldaSS1.jpg"
+          "img": "./MarioSS/marioss1.jpg"
         },
         {
-          "img": "./MarioSS/zeldaSS2.jpg"
+          "img": "./MarioSS/marioss2.jpg"
         },
         {
-          "img": "./MarioSS/zeldaSS3.jpg"
+          "img": "./MarioSS/marioss3.jpg"
         },
         {
-          "img": "./MarioSS/zeldaSS4.jpg"
+          "img": "./MarioSS/marioss4.jpg"
         },
         {
-          "img": "./MarioSS/zeldaSS4.jpg"
+          "img": "./MarioSS/marioss5.jpg"
         }
       ],
-      "symbol": "./MarioSS/zelda-icon.png",
+      "symbol": "./MarioSS/mario-icon.webp",
       "ETCList": [
         {
-          "img": "./MarioSS/zeldaSS1.jpg"
+          "img": "./MarioSS/mariotitle1.jpg"
         },
         {
-          "img": "./MarioSS/zeldaSS1.jpg"
+          "img": "./MarioSS/mariotitle2.jpg"
         },
         {
-          "img": "./MarioSS/zeldaSS1.jpg"
+          "img": "./MarioSS/mariotitle3.jpg"
         },
         {
-          "img": "./MarioSS/zeldaSS1.jpg"
+          "img": "./MarioSS/mariotitle4.jpg"
         }
       ]
     },
     {
       "id" : 4,
       "titleLogo": "./FESS/fireemblem_logo.webp",
-      "back": "./FESS/zelda-back.png",
+      "back": "./FESS/fe-back.png",
       "intro": "파이어 엠블렘",
-      "chara": "./FESS/WI-Link.webp",
+      "chara": "./FESS/WI-Alear-.png",
       "SSList": [
         {
-          "img": "./FESS/zeldaSS1.jpg"
+          "img": "./FESS/fess1.jpg"
         },
         {
-          "img": "./FESS/zeldaSS2.jpg"
+          "img": "./FESS/fess2.jpg"
         },
         {
-          "img": "./FESS/zeldaSS3.jpg"
+          "img": "./FESS/fess3.jpg"
         },
         {
-          "img": "./FESS/zeldaSS4.jpg"
+          "img": "./FESS/fess4.jpg"
         },
         {
-          "img": "./FESS/zeldaSS4.jpg"
+          "img": "./FESS/fess5.jpg"
         }
       ],
-      "symbol": "./FESS/zelda-icon.png",
+      "symbol": "./FESS/FE-icon.png",
       "ETCList": [
         {
-          "img": "./FESS/zeldaSS1.jpg"
+          "img": "./FESS/fetitle1.jpg"
         },
         {
-          "img": "./FESS/zeldaSS1.jpg"
+          "img": "./FESS/fetitle2.jpg"
         },
         {
-          "img": "./FESS/zeldaSS1.jpg"
-        },
-        {
-          "img": "./FESS/zeldaSS1.jpg"
+          "img": "./FESS/fetitle3.png"
         }
       ]
     },
     {
       "id" : 5,
       "titleLogo": "./splatoonSS/splatoon-logo.png",
-      "back": "./splatoonSS/zelda-back.png",
+      "back": "./splatoonSS/splatoon-back.png",
       "intro": "스플래툰",
-      "chara": "./splatoonSS/WI-Link.webp",
+      "chara": "./splatoonSS/WI-Inkling-.png",
       "SSList": [
         {
           "img": "./splatoonSS/zeldaSS1.jpg"
@@ -218,7 +209,7 @@
           "img": "./splatoonSS/zeldaSS4.jpg"
         }
       ],
-      "symbol": "./splatoonSS/zelda-icon.png",
+      "symbol": "./splatoonSS/splatoon-icon.png",
       "ETCList": [
         {
           "img": "./splatoonSS/zeldaSS1.jpg"

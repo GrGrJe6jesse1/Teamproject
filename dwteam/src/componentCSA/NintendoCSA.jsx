@@ -1,36 +1,17 @@
 import React from 'react'
 import './NintendoCSA.css'
 import NInTitleCSA from './NInTitleCSA'
+import NinGameDB from './NinGameDB.json'
 import { useEffect, useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 
 
 const NintendoCSA = () => {
-  const [productList, setProductList] = useState(null);
+  const [nintendoTitle, setNintendoTitle] = useState([]);
 
-  // const getProducts = async () => {
-  //   let url = "http://localhost:5000/nintendoTitle"
-  //   let reponse = await fetch(url);
-  //   let data = await reponse.json();
-  //   console.log(data);
-
-  //   setProductList(data)
-  // }
-
-  // useEffect(()=> {
-  //   getProducts()
-  // }, []);
-
-
-  useEffect(() => {
-    fetch("http://localhost:5000/nintendoTitle")
-      .then(reponse => {
-        return reponse.json();
-      })
-      .then(data => {
-        setProductList(data);
-      });
-  }, []);
+  useEffect(()=>{
+    setNintendoTitle(NinGameDB, nintendoTitle)
+  },[]);
 
   const [showModal, setShowModal] = useState(false);
   const openModal = () => {
@@ -75,15 +56,20 @@ const NintendoCSA = () => {
         {
           showModal == true ? 
           <div className='modalback' onClick={closeModal}>
-            {productList.map((menu, i) => {
+            <Col className='nin-modal' onClick={e => e.stopPropagation()}>
+              {nintendoTitle && < NInTitleCSA nintendoTitle={nintendoTitle}/>}
+              {/* <button id='btn-left'>좌</button>
+              <button id='btn-right'>우</button> */}
+            </Col>
+            {/* {NinGameDB.nintendoTitle.map((nintendoTitle, id) => {
               return (
-                <Col className='nin-modal' onClick={e => e.stopPropagation()} key={i}>
-                  {productList && <NInTitleCSA menu={menu}/>}
+                <Col className='nin-modal' onClick={e => e.stopPropagation()} key={id}>
+                  {nintendoTitle && < NInTitleCSA nintendoTitle={nintendoTitle}/>}
                   <button id='btn-left'>좌</button>
                   <button id='btn-right'>우</button>
                 </Col>
               )
-            })}
+            })} */}
           </div> : null
         }
       </Row>

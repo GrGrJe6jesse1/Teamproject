@@ -9,7 +9,7 @@
   height: 100%;
 }
 
-.title-back {
+/* .title-back {
   position: relative;
   background-image: url(./zeldaSS/zelda-back.png);
   background-size: cover;
@@ -19,7 +19,7 @@
   height: 100%;
   overflow: hidden;
   border-radius: 10px;
-}
+} */
 
 .nin-game-title {
   position: absolute;

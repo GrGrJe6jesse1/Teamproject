@@ -2,325 +2,352 @@
   "nintendoTitle": [
     {
       "id" : 0,
-      "titleLogo": ".src/componentCSA/zeldaSS/zelda_logo.webp",
-      "back": ".src/componentCSA/zeldaSS/zelda-back.png",
-      "intro": "젤다의 전설",
-      "chara": ".src/componentCSA/zeldaSS/WI-Link.webp",
+      "titleLogo": "./metroidSS/metroid_logo.webp",
+      "back": "./metroidSS/zelda-back.png",
+      "intro": "메트로이드",
+      "chara": "./metroidSS/WI-Link.webp",
       "SSList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./metroidSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS2.jpg"
+          "img": "./metroidSS/zeldaSS2.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS3.jpg"
+          "img": "./metroidSS/zeldaSS3.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS4.jpg"
+          "img": "./metroidSS/zeldaSS4.jpg"
+        },
+        {
+          "img": "./metroidSS/zeldaSS4.jpg"
         }
       ],
-      "symbol": ".src/componentCSA/zeldaSS/zelda-icon.png",
+      "symbol": "./metroidSS/zelda-icon.png",
       "ETCList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./metroidSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./metroidSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./metroidSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./metroidSS/zeldaSS1.jpg"
         }
       ]
     },
     {
       "id" : 1,
-      "titleLogo": ".src/componentCSA/zeldaSS/zelda_logo.webp",
-      "back": ".src/componentCSA/zeldaSS/zelda-back.png",
-      "intro": "젤다의 전설",
-      "chara": ".src/componentCSA/zeldaSS/WI-Link.webp",
+      "titleLogo": "./zeldaSS/zelda_logo.webp",
+      "back": "./zeldaSS/zelda-back.png",
+      "intro": "기타 독점 타이틀",
+      "chara": "./zeldaSS/WI-Link.webp",
       "SSList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./zeldaSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS2.jpg"
+          "img": "./zeldaSS/zeldaSS2.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS3.jpg"
+          "img": "./zeldaSS/zeldaSS3.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS4.jpg"
+          "img": "./zeldaSS/zeldaSS4.jpg"
+        },
+        {
+          "img": "./zeldaSS/zeldaSS4.jpg"
         }
       ],
-      "symbol": ".src/componentCSA/zeldaSS/zelda-icon.png",
+      "symbol": "./zeldaSS/zelda-icon.png",
       "ETCList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./zeldaSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./zeldaSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./zeldaSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./zeldaSS/zeldaSS1.jpg"
         }
       ]
     },
     {
       "id" : 2,
-      "titleLogo": ".src/componentCSA/zeldaSS/zelda_logo.webp",
-      "back": ".src/componentCSA/zeldaSS/zelda-back.png",
+      "titleLogo": "./zeldaSS/zelda_logo.webp",
+      "back": "./zeldaSS/zelda-back.png",
       "intro": "젤다의 전설",
-      "chara": ".src/componentCSA/zeldaSS/WI-Link.webp",
+      "chara": "./zeldaSS/WI-Link.webp",
       "SSList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./zeldaSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS2.jpg"
+          "img": "./zeldaSS/zeldaSS2.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS3.jpg"
+          "img": "./zeldaSS/zeldaSS3.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS4.jpg"
+          "img": "./zeldaSS/zeldaSS4.jpg"
+        },
+        {
+          "img": "./zeldaSS/zeldaSS4.jpg"
         }
       ],
-      "symbol": ".src/componentCSA/zeldaSS/zelda-icon.png",
+      "symbol": "./zeldaSS/zelda-icon.png",
       "ETCList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./zeldaSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./zeldaSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./zeldaSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./zeldaSS/zeldaSS1.jpg"
         }
       ]
     },
     {
       "id" : 3,
-      "titleLogo": ".src/componentCSA/zeldaSS/zelda_logo.webp",
-      "back": ".src/componentCSA/zeldaSS/zelda-back.png",
-      "intro": "젤다의 전설",
-      "chara": ".src/componentCSA/zeldaSS/WI-Link.webp",
+      "titleLogo": "./MarioSS/mario_logo.webp",
+      "back": "./MarioSS/zelda-back.png",
+      "intro": "마리오",
+      "chara": "./MarioSS/WI-Link.webp",
       "SSList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./MarioSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS2.jpg"
+          "img": "./MarioSS/zeldaSS2.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS3.jpg"
+          "img": "./MarioSS/zeldaSS3.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS4.jpg"
+          "img": "./MarioSS/zeldaSS4.jpg"
+        },
+        {
+          "img": "./MarioSS/zeldaSS4.jpg"
         }
       ],
-      "symbol": ".src/componentCSA/zeldaSS/zelda-icon.png",
+      "symbol": "./MarioSS/zelda-icon.png",
       "ETCList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./MarioSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./MarioSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./MarioSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./MarioSS/zeldaSS1.jpg"
         }
       ]
     },
     {
       "id" : 4,
-      "titleLogo": ".src/componentCSA/zeldaSS/zelda_logo.webp",
-      "back": ".src/componentCSA/zeldaSS/zelda-back.png",
-      "intro": "젤다의 전설",
-      "chara": ".src/componentCSA/zeldaSS/WI-Link.webp",
+      "titleLogo": "./FESS/fireemblem_logo.webp",
+      "back": "./FESS/zelda-back.png",
+      "intro": "파이어 엠블렘",
+      "chara": "./FESS/WI-Link.webp",
       "SSList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./FESS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS2.jpg"
+          "img": "./FESS/zeldaSS2.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS3.jpg"
+          "img": "./FESS/zeldaSS3.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS4.jpg"
+          "img": "./FESS/zeldaSS4.jpg"
+        },
+        {
+          "img": "./FESS/zeldaSS4.jpg"
         }
       ],
-      "symbol": ".src/componentCSA/zeldaSS/zelda-icon.png",
+      "symbol": "./FESS/zelda-icon.png",
       "ETCList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./FESS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./FESS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./FESS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./FESS/zeldaSS1.jpg"
         }
       ]
     },
     {
       "id" : 5,
-      "titleLogo": ".src/componentCSA/zeldaSS/zelda_logo.webp",
-      "back": ".src/componentCSA/zeldaSS/zelda-back.png",
-      "intro": "젤다의 전설",
-      "chara": ".src/componentCSA/zeldaSS/WI-Link.webp",
+      "titleLogo": "./splatoonSS/splatoon-logo.png",
+      "back": "./splatoonSS/zelda-back.png",
+      "intro": "스플래툰",
+      "chara": "./splatoonSS/WI-Link.webp",
       "SSList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./splatoonSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS2.jpg"
+          "img": "./splatoonSS/zeldaSS2.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS3.jpg"
+          "img": "./splatoonSS/zeldaSS3.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS4.jpg"
+          "img": "./splatoonSS/zeldaSS4.jpg"
+        },
+        {
+          "img": "./splatoonSS/zeldaSS4.jpg"
         }
       ],
-      "symbol": ".src/componentCSA/zeldaSS/zelda-icon.png",
+      "symbol": "./splatoonSS/zelda-icon.png",
       "ETCList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./splatoonSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./splatoonSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./splatoonSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./splatoonSS/zeldaSS1.jpg"
         }
       ]
     },
     {
       "id" : 6,
-      "titleLogo": ".src/componentCSA/zeldaSS/zelda_logo.webp",
-      "back": ".src/componentCSA/zeldaSS/zelda-back.png",
-      "intro": "젤다의 전설",
-      "chara": ".src/componentCSA/zeldaSS/WI-Link.webp",
+      "titleLogo": "./kirbySS/kirby_logo.webp",
+      "back": "./kirbySS/zelda-back.png",
+      "intro": "별의 커비",
+      "chara": "./kirbySS/WI-Link.webp",
       "SSList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./kirbySS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS2.jpg"
+          "img": "./kirbySS/zeldaSS2.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS3.jpg"
+          "img": "./kirbySS/zeldaSS3.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS4.jpg"
+          "img": "./kirbySS/zeldaSS4.jpg"
+        },
+        {
+          "img": "./kirbySS/zeldaSS4.jpg"
         }
       ],
-      "symbol": ".src/componentCSA/zeldaSS/zelda-icon.png",
+      "symbol": "./kirbySS/zelda-icon.png",
       "ETCList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./kirbySS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./kirbySS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./kirbySS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./kirbySS/zeldaSS1.jpg"
         }
       ]
     },
     {
       "id" : 7,
-      "titleLogo": ".src/componentCSA/zeldaSS/zelda_logo.webp",
-      "back": ".src/componentCSA/zeldaSS/zelda-back.png",
-      "intro": "젤다의 전설",
-      "chara": ".src/componentCSA/zeldaSS/WI-Link.webp",
+      "titleLogo": "./ACSS/visual_logo__pc.png",
+      "back": "./ACSS/zelda-back.png",
+      "intro": "동물의 숲",
+      "chara": "./ACSS/WI-Link.webp",
       "SSList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./ACSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS2.jpg"
+          "img": "./ACSS/zeldaSS2.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS3.jpg"
+          "img": "./ACSS/zeldaSS3.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS4.jpg"
+          "img": "./ACSS/zeldaSS4.jpg"
+        },
+        {
+          "img": "./ACSS/zeldaSS4.jpg"
         }
       ],
-      "symbol": ".src/componentCSA/zeldaSS/zelda-icon.png",
+      "symbol": "./ACSS/zelda-icon.png",
       "ETCList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./ACSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./ACSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./ACSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./ACSS/zeldaSS1.jpg"
         }
       ]
     },
     {
       "id" : 8,
-      "titleLogo": ".src/componentCSA/zeldaSS/zelda_logo.webp",
-      "back": ".src/componentCSA/zeldaSS/zelda-back.png",
-      "intro": "젤다의 전설",
-      "chara": ".src/componentCSA/zeldaSS/WI-Link.webp",
+      "titleLogo": "./pokemonSS/pokemon_logo.webp",
+      "back": "./pokemonSS/zelda-back.png",
+      "intro": "포켓몬스터",
+      "chara": "./pokemonSS/WI-Link.webp",
       "SSList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./pokemonSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS2.jpg"
+          "img": "./pokemonSS/zeldaSS2.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS3.jpg"
+          "img": "./pokemonSS/zeldaSS3.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS4.jpg"
+          "img": "./pokemonSS/zeldaSS4.jpg"
+        },
+        {
+          "img": "./pokemonSS/zeldaSS4.jpg"
         }
       ],
-      "symbol": ".src/componentCSA/zeldaSS/zelda-icon.png",
+      "symbol": "./pokemonSS/zelda-icon.png",
       "ETCList": [
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./pokemonSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./pokemonSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./pokemonSS/zeldaSS1.jpg"
         },
         {
-          "img": ".src/componentCSA/zeldaSS/zeldaSS1.jpg"
+          "img": "./pokemonSS/zeldaSS1.jpg"
         }
       ]
     }

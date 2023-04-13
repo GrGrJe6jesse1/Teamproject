@@ -4,7 +4,7 @@
       "id" : 0,
       "titleLogo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Metroid_Logo_2.png",
       "back": "https://www.nintendo.co.jp/switch/a3sda/assets/img/world/bg_mv02.jpg",
-      "intro": "메트로이드",
+      "intro": "1986년 메트로이드를 시작으로 닌텐도에서 제작, 발매하는 액션 어드벤처 게임 시리즈. 메트로배니아의 '메트로'의 어원이 된 시리즈이며, 2D 횡스크롤 슈터로 출발했지만 메트로이드 프라임 시리즈는 FPS의 요소를 채용하였다.",
       "chara": "http://localhost:3000/static/media/WI-Samus-.6846566da42cfcf7eddb.png",
       "SSList": [
         {
@@ -34,7 +34,7 @@
       "id" : 2,
       "titleLogo": "https://www.pngmart.com/files/13/The-Legend-of-Zelda-Logo-PNG-Image.png",
       "back": "https://www.nintendo.co.kr/front_images/banner/rolling/283/ea38d440ffd96f2493c15a566f8cf735.png",
-      "intro": "젤다의 전설",
+      "intro": "닌텐도 대표 걸작 시리즈 중의 하나, 닌텐도 스위치와 함께 발매한 야생의 숨결은 Wii U로 인해 부진하던 닌텐도를 되살렸다. 시리즈가 다양한 면에서 변화를 추구하기에 갑작스럽게 기존 시리즈와 상당히 다른 느낌의 게임이 나오는 경우도 있으며, 그만큼 다른 작품들과 비교할 때 출시하는 텀이 긴 편이다, 최신작인 티어스 오브 더 킹덤은 5월 발매 예정",
       "chara": "http://localhost:3000/static/media/WI-Link.480c0b451a6f7b87f430.webp",
       "SSList": [
         {
@@ -70,7 +70,7 @@
       "id" : 3,
       "titleLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Mario_Series_Logo.svg/2560px-Mario_Series_Logo.svg.png",
       "back": "https://www.nintendo.co.kr/software/switch/aaaca/img/index_bg01.jpg",
-      "intro": "마리오",
+      "intro": "닌텐도의 대표 프랜차이즈, 비디오게임 발전에 큰 영향을 끼친 시리즈인 만큼 현대 비디오 게임의 상징으로 여기는 사람들도 많다. 본가 시리즈 최신작은 아직 닌텐도 스위치의 초기인 2017년에 발매한 슈퍼 마리오 오디세이",
       "chara": "http://localhost:3000/static/media/WI-MARIO.3cf467c8943dd5163dfc.webp",
       "SSList": [
         {
@@ -139,7 +139,7 @@
       "id" : 5,
       "titleLogo": "https://www.pngkit.com/png/full/209-2091697_splatoon-splatoon-logo-png.png",
       "back": "https://www.nintendo.co.kr/software/switch/av5ja/assets/images/world/pc/hero_bg.png",
-      "intro": "스플래툰",
+      "intro": "2015년 5월 Wii U로 출시된 TPS 게임, 당시 Wii U의 실패로 인한 닌텐도의 미래에 대한 우려를 뒤엎은 신규 IP로 이후 닌텐도를 대표하는 새로운 브랜드가 되었으나 Wii U로 출시된 만큼 국내에는 들어오지 못했다. 최신작인 스플래툰3는 2022년 9월 출시하여 처음으로 정식 한글화도 되면서 작년 4분기 결산 1000만 장 이상의 판매량을 기록했다",
       "chara": "http://localhost:3000/static/media/WI-Inkling-.a85f55cf9fa9d369e6ba.png",
       "SSList": [
         {
@@ -166,7 +166,7 @@
       "id" : 6,
       "titleLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Kirby-Logo-New.svg/2560px-Kirby-Logo-New.svg.png",
       "back": "https://www.nintendo.co.kr/software/switch/arzga/assets/img/top/bg_mouthful.jpg",
-      "intro": "별의 커비",
+      "intro": "닌텐도에서 1992년 <별의 커비>부터 발매하고 있는 액션 게임 시리즈, 본가 최신작인 별의 커비 디스커버리는 시리즈 전통의 횡스크롤 조작 방식에서 벗어나 최초의 전방향 3D 액션 게임이자 시리즈의 30주년 기념작이다.",
       "chara": "http://localhost:3000/static/media/WI-Kirby.abea50611ea34a9d0ddf.png",
       "SSList": [
         {
@@ -202,7 +202,7 @@
       "id" : 7,
       "titleLogo": "https://assets.stickpng.com/images/5b4a216ec051e602a568cd7e.png",
       "back": "https://www.nintendo.co.kr/software/switch/acbaa/assets/images/top/visual_bg_pc.jpg",
-      "intro": "동물의 숲",
+      "intro": "플레이어가 동물들이 살고 있는 숲속의 마을에 합류해 살면서 산책하고 곤충 채집을 하고 낚시를 하고 동물 이웃들과 교류하고 집을 인테리어하는 등의 활동을 하는데, 온라인 친구와 같이 즐길 수 있는 커뮤니케이션 게임이다. 최신작은 2020년 발매한 『모여봐요 동물의 숲』",
       "chara": "http://localhost:3000/static/media/WI-villager.5670ad9c3bbd25ea51a1.png",
       "SSList": [
         {
@@ -229,7 +229,7 @@
       "id" : 8,
       "titleLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png",
       "back": "https://www.pokemon.co.jp/ex/sv/assets/img/story/ja/220803_02/story_img_01.jpg",
-      "intro": "포켓몬스터",
+      "intro": "시발점이 되는 작품은 1996년 닌텐도 게임보이용으로 출시되었다. 전 세계 미디어 믹스 총매출 1위의 문화적 현상이라 불릴 만큼의 컨텐츠이나 컨텐츠사업이 흥행하면서도 본가 게임의 완성도는 좋은 평가가 많지 않다. 그럼에도 불구하고 시리즈 최신작인 스칼렛.바이올렛은 2022년 11월 발매 후 한달만에 작년 4분기 누적 2천만 장 이상을 기록하였다",
       "chara": "http://localhost:3000/static/media/WI-pikachu-.7f8e389b7ad25bd80f42.png",
       "SSList": [
         {

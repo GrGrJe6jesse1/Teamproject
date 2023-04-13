@@ -52,7 +52,7 @@ const NInTitleCSA = ({gameName}) => {
           {/* 백그라운드 이미지 */}
           <img src={NinGameDB.nintendoTitle[gameName].back} style={{width: '100%', height: "100%"}} alt="background" />
           <Col className='nin-game-title'>
-            <img src={NinGameDB.nintendoTitle[gameName].titleLogo} style={{width: '500px'}} alt="logo" />
+            <img src={NinGameDB.nintendoTitle[gameName].titleLogo} style={{width: '300px', animation: 'logo 1s'}} alt="logo" />
             <p className='intro'>{NinGameDB.nintendoTitle[gameName].intro}</p>
           </Col>
           <Col className='nin-chara'>

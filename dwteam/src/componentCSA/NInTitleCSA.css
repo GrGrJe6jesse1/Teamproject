@@ -31,6 +31,13 @@
   /* opacity: 0.5; */
 }
 
+.intro {
+  margin: 0, 50px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .nin-game-title img {
   animation: logo 1s;
 }
@@ -55,7 +62,7 @@
 
 .nin-Sshot {
   position: absolute;
-  bottom: 10%;
+  bottom: 30%;
   width: 300vw;
   height: 300px;
   display: flex;
@@ -63,30 +70,47 @@
   z-index: 5;
   overflow: visible;
   overflow-x: scroll;
+  animation: SSRail 700ms;
 }
 
-
-.nin-Sshot button {
-  width: 50px;
-  height: 150px;
-  border: none;
-  background: #9c9c9c;
-  z-index: 5;
-  transition: all 300ms ease-in-out;
+@keyframes SSRail {
+  0% {
+    transform: translateX(-100%);
+  }
+  10% {
+    transform: translateX(-90%);
+  }
+  20% {
+    transform: translateX(-80%);
+  }
+  30% {
+    transform: translateX(-70%);
+  }
+  40% {
+    transform: translateX(-70%);
+  }
+  50% {
+    transform: translateX(-60%);
+  }
+  60% {
+    transform: translateX(-50%);
+  }
+  70% {
+    transform: translateX(-40%);
+  }
+  80% {
+    transform: translateX(-30%);
+  }
+  90% {
+    transform: translateX(-20%);
+  }
+  95% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
-
-#SS-btn-l {
-  position: absolute;
-  top: 15%;
-  left: 0;
-}
-
-#SS-btn-r {
-  position: absolute;
-  top: 15%;
-  right: 70%;
-}
-
 
 .nin-sw-Sshot {
   width: calc((100vw - 20px) / 4);
@@ -94,8 +118,9 @@
   z-index: 3;
 }
 
-.nin-sw-Sshot img {
+.ninGameSS {
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -130,22 +155,58 @@
   z-index: 22;
 }
 
-.largeSS button {
+/* .largeSS button {
   width: 50px;
   height: 150px;
   border: none;
   background: #9c9c9c;
   z-index: 23;
   transition: all 300ms ease-in-out;
-}
+} */
 
 
 @keyframes SS {
-  from {
-    scale: .5;
+    /* from {
+      scale: .5;
+    }
+    to {
+      scale: 1;
+    } */
+  0% {
+    transform: translateX(-100%);
   }
-  to {
-    scale: 1;
+  10% {
+    transform: translateX(-90%);
+  }
+  20% {
+    transform: translateX(-80%);
+  }
+  30% {
+    transform: translateX(-70%);
+  }
+  40% {
+    transform: translateX(-70%);
+  }
+  50% {
+    transform: translateX(-60%);
+  }
+  60% {
+    transform: translateX(-50%);
+  }
+  70% {
+    transform: translateX(-40%);
+  }
+  80% {
+    transform: translateX(-30%);
+  }
+  90% {
+    transform: translateX(-20%);
+  }
+  95% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
@@ -160,10 +221,10 @@
 }
 
 .series-title {
-  background-image: url(./zeldaSS/zelda-icon.png);
+  /* background-image: url(./zeldaSS/zelda-icon.png);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   width: 95%;
   height: 95%;
 }

@@ -35,23 +35,23 @@ const NintendoCSA = () => {
         {/* 메트로이드 */}
         <Col className='WELCOME-SAMUS' onClick={() => openModal(0)}></Col>
         {/* 기타독점타이틀 */}
-        <Col className='WELCOME-SSBU' onClick={() => openModal(1)}></Col>
+        {/* <Col className='WELCOME-SSBU' onClick={() => openModal(1)}></Col> */}
         {/* 젤다 */}
-        <Col className='WELCOME-Link' onClick={() => openModal(2)}></Col>
+        <Col className='WELCOME-Link' onClick={() => openModal(1)}></Col>
         {/* 마리오 */}
-        <Col className='WELCOME-MARIO' onClick={() => openModal(3)}></Col>
+        <Col className='WELCOME-MARIO' onClick={() => openModal(2)}></Col>
         {/* 파이어엠블렘 */}
-        <Col className='WELCOME-Alear' onClick={() => openModal(4)}></Col>
+        <Col className='WELCOME-Alear' onClick={() => openModal(3)}></Col>
         {/* 스플래툰 */}
-        <Col className='WELCOME-Inkling' onClick={() => openModal(5)}></Col>
+        <Col className='WELCOME-Inkling' onClick={() => openModal(4)}></Col>
         {/* 로고 */}
         <Col className='WELCOME-Logo'></Col>
         {/* 커비 */}
-        <Col className='WELCOME-Kirby' onClick={() => openModal(6)}></Col>
+        <Col className='WELCOME-Kirby' onClick={() => openModal(5)}></Col>
         {/* 동숲 */}
-        <Col className='WELCOME-villager' onClick={() => openModal(7)}></Col>
+        <Col className='WELCOME-villager' onClick={() => openModal(6)}></Col>
         {/* 포켓몬 */}
-        <Col className='WELCOME-pikachu' onClick={() => openModal(8)}></Col>
+        <Col className='WELCOME-pikachu' onClick={() => openModal(7)}></Col>
 
         {/* 모달 */}
         {

@@ -34,8 +34,6 @@ const NintendoCSA = () => {
 
         {/* 메트로이드 */}
         <Col className='WELCOME-SAMUS' onClick={() => openModal(0)}></Col>
-        {/* 기타독점타이틀 */}
-        {/* <Col className='WELCOME-SSBU' onClick={() => openModal(1)}></Col> */}
         {/* 젤다 */}
         <Col className='WELCOME-Link' onClick={() => openModal(1)}></Col>
         {/* 마리오 */}
@@ -59,18 +57,7 @@ const NintendoCSA = () => {
           <div className='modalback' onClick={closeModal}>
             <Col className='nin-modal' onClick={e => e.stopPropagation()}>
               {nintendoTitle && < NInTitleCSA nintendoTitle={nintendoTitle} gameName={index}/>}
-              {/* <button id='btn-left'>좌</button>
-              <button id='btn-right'>우</button> */}
             </Col>
-            {/* {NinGameDB.nintendoTitle.map((nintendoTitle, id) => {
-              return (
-                <Col className='nin-modal' onClick={e => e.stopPropagation()} key={id}>
-                  {nintendoTitle && < NInTitleCSA nintendoTitle={nintendoTitle}/>}
-                  <button id='btn-left'>좌</button>
-                  <button id='btn-right'>우</button>
-                </Col>
-              )
-            })} */}
           </div> : null
         }
       </Row>

@@ -9,18 +9,6 @@
   height: 100%;
 }
 
-/* .title-back {
-  position: relative;
-  background-image: url(./zeldaSS/zelda-back.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  border-radius: 10px;
-} */
-
 .nin-game-title {
   position: absolute;
   top: 20px;
@@ -31,12 +19,11 @@
 }
 
 .intro {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
-  /* color: #e60012; */
   background-color: ivory;
   opacity: .5;
 }
@@ -72,47 +59,17 @@
   flex-wrap: wrap;
   z-index: 5;
   overflow: visible;
-  overflow-x: scroll;
-  animation: SSRail 700ms;
+  transform: translateX(-2%);
+  animation: SSRail 2000ms;
 }
 
 @keyframes SSRail {
-  0% {
-    transform: translateX(-100%);
-  }
-  10% {
-    transform: translateX(-90%);
-  }
-  20% {
-    transform: translateX(-80%);
-  }
-  30% {
-    transform: translateX(-70%);
-  }
-  40% {
-    transform: translateX(-70%);
-  }
-  50% {
-    transform: translateX(-60%);
-  }
-  60% {
-    transform: translateX(-50%);
-  }
-  70% {
-    transform: translateX(-40%);
-  }
-  80% {
-    transform: translateX(-30%);
-  }
-  90% {
-    transform: translateX(-20%);
-  }
-  95% {
-    transform: translateX(-10%);
-  }
-  100% {
-    transform: translateX(0);
-  }
+  from {
+      transform: translateX(-100%);
+    }
+  to {
+      transform: translateX(-2%);
+    }
 }
 
 .nin-sw-Sshot {
@@ -128,10 +85,10 @@
 }
 
 .SSback {
-  position: fixed;
-  top: -100%;
-  left: -20%;
-  width: 200vw;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 300vw;
   height: 200vh;
   background-color: #161515;
   z-index: 19;
@@ -140,9 +97,9 @@
 }
 
 .largeSS {
-  position: fixed;
+  position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translate(-10%, -50%);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -150,6 +107,7 @@
   height: 500px;
   z-index: 20;
   animation: SS 1s;
+  overflow: visible;
 }
 
 .largeSS img {
@@ -158,59 +116,14 @@
   z-index: 22;
 }
 
-/* .largeSS button {
-  width: 50px;
-  height: 150px;
-  border: none;
-  background: #9c9c9c;
-  z-index: 23;
-  transition: all 300ms ease-in-out;
-} */
-
 
 @keyframes SS {
-    /* from {
+    from {
       scale: .5;
     }
     to {
       scale: 1;
-    } */
-  0% {
-    transform: translateX(-100%);
-  }
-  10% {
-    transform: translateX(-90%);
-  }
-  20% {
-    transform: translateX(-80%);
-  }
-  30% {
-    transform: translateX(-70%);
-  }
-  40% {
-    transform: translateX(-70%);
-  }
-  50% {
-    transform: translateX(-60%);
-  }
-  60% {
-    transform: translateX(-50%);
-  }
-  70% {
-    transform: translateX(-40%);
-  }
-  80% {
-    transform: translateX(-30%);
-  }
-  90% {
-    transform: translateX(-20%);
-  }
-  95% {
-    transform: translateX(-10%);
-  }
-  100% {
-    transform: translateX(0);
-  }
+    }
 }
 
 .nin-series {
@@ -224,10 +137,6 @@
 }
 
 .series-title {
-  /* background-image: url(./zeldaSS/zelda-icon.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
   width: 95%;
   height: 95%;
 }

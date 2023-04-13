@@ -1,11 +1,8 @@
 import React from 'react'
 import './NInTitleCSA.css'
 import NinGameDB from './NinGameDB.json'
-// import ScreenshotList from './SSlistCSA'
-// import ETCtitleCSA from './ETCtitleCSA'
 import { Container, Row, Col } from 'react-bootstrap'
 import { useEffect, useState } from 'react'
-import Slider from "react-slick";
 
 const NInTitleCSA = ({gameName}) => {
   const [nintendoTitle, setNintendoTitle] = useState([]);
@@ -26,15 +23,6 @@ const NInTitleCSA = ({gameName}) => {
     setviewModal(false);
   }
 
-  const [settings, setSettings] = useState({
-    dots: false,
-    infinite: false,
-    speed: 1000,
-    slidesToShow: 1,
-    slidesToScroll: 0,
-    arrows: true,
-    autoplay: false,
-  });
 
   const [ETCmodal, setetcModal] = useState(false);
   const etcTTModal = (temp) => {
@@ -59,22 +47,20 @@ const NInTitleCSA = ({gameName}) => {
             {/* 타이틀 캐릭터 이미지 */}
           <img src={NinGameDB.nintendoTitle[gameName].chara} style={{width: '100%'}} alt="chara" />
           </Col>
-          {/* 겜스샷 또는 영상 3~4 컨텐츠 */}
-          {/* {nintendoTitle && <ScreenshotList nintendoTitle={nintendoTitle} gameName={index}/>} */}
+          {/* 겜스샷 3~4장 */}
           <div className='nin-Sshot'>
             {
               SSLIST.map(function(a, img){
                 return(
                   <div className='nin-sw-Sshot' onClick={SSModal} key={img}>
                     {/* <h1>클릭시 스크린샷 모달 생성</h1> */}
-                    <Slider {...settings}>
-                      <img className='ninGameSS' src={a.img} key={img} alt="screenshot" />
-                    </Slider>
+                    <img className='ninGameSS' src={a.img} key={img} alt="screenshot" />
                   </div>  
                 )
               })
             }
-            { viewModal == true ? 
+          </div>
+          { viewModal == true ? 
               <div className='SSback' onClick={closeSSModal}></div>   
             : null }
             { viewModal == true ? 
@@ -86,7 +72,6 @@ const NInTitleCSA = ({gameName}) => {
                 })}
               </div> 
             : null }
-          </div>
           {/* 시리즈게임 */}
           <div className='nin-series'>
             <div className='series-title' onClick={etcTTModal}>
@@ -101,32 +86,13 @@ const NInTitleCSA = ({gameName}) => {
               <div className='title-modal' onClick={e => e.stopPropagation()}>
                 {ETCLIST.map(function(a, img){
                   return(
-                    // <div className="nin-sw-item"></div>
                     <img className="nin-sw-item" src={a.img} key={img} alt="etc" />
                   )
                 })}
               </div> : null
             }
           </div>
-          {/* {nintendoTitle && <ETCtitleCSA nintendoTitle={nintendoTitle} gameName={index}/>} */}
         </Row>
-      
-    {/* {NinGameDB.nintendoTitle.map((nintendoTitle, i)=>{
-      return (
-        <Row className='title-back' style={{position: 'relative', width: '100%', height: "100%", overflow: 'hidden', borderRadius: '10px'}}>
-          {/* <img src={nintendoTitle.back} style={{width: '100%'}} alt="background" /> */}
-          {/* {nintendoTitle.back} */}
-          {/* <Col className='nin-game-title'>
-            <img src={nintendoTitle.titleLogo} style={{width: '500px'}} alt="logo" />
-            {nintendoTitle && <p>{nintendoTitle.intro}</p>}
-          </Col>
-          <Col className='nin-chara'>
-          </Col>
-          <ScreenshotList nintendoTitle={nintendoTitle}/>
-          <ETCtitleCSA nintendoTitle={nintendoTitle}/>
-        </Row>
-      )
-    })} */}
     </Container>
   )
 }

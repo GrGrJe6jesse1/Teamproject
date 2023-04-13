@@ -200,7 +200,7 @@
     },
     {
       "id" : 7,
-      "titleLogo": "https://assets.stickpng.com/images/5b4a216ec051e602a568cd7e.png",
+      "titleLogo": "https://www.nintendo.co.kr/software/switch/acbaa/assets/images/top/visual_logo__pc.png",
       "back": "https://www.nintendo.co.kr/software/switch/acbaa/assets/images/top/visual_bg_pc.jpg",
       "intro": "플레이어가 동물들이 살고 있는 숲속의 마을에 합류해 살면서 산책하고 곤충 채집을 하고 낚시를 하고 동물 이웃들과 교류하고 집을 인테리어하는 등의 활동을 하는데, 온라인 친구와 같이 즐길 수 있는 커뮤니케이션 게임이다. 최신작은 2020년 발매한 『모여봐요 동물의 숲』",
       "chara": "http://localhost:3000/static/media/WI-villager.5670ad9c3bbd25ea51a1.png",

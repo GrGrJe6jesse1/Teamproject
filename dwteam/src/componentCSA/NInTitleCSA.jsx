@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react'
 
 const NInTitleCSA = ({gameName}) => {
   const [nintendoTitle, setNintendoTitle] = useState([]);
+  const [index, setIndex] = useState(0);
 
   useEffect(()=>{
     setNintendoTitle(NinGameDB, nintendoTitle)
@@ -18,7 +19,7 @@ const NInTitleCSA = ({gameName}) => {
     <Container className='title-container'>
         <Row className='title-back' style={{position: 'relative', width: '100%', height: "100%", overflow: 'hidden', borderRadius: '10px'}}>
           {/* 백그라운드 이미지 */}
-          <img src={NinGameDB.nintendoTitle[gameName].back} style={{width: '100%'}} alt="background" />
+          <img src={NinGameDB.nintendoTitle[gameName].back} style={{width: '100%', height: "100%"}} alt="background" />
           <Col className='nin-game-title'>
             <img src={NinGameDB.nintendoTitle[gameName].titleLogo} style={{width: '500px'}} alt="logo" />
             <p>{NinGameDB.nintendoTitle[gameName].intro}</p>
@@ -28,9 +29,9 @@ const NInTitleCSA = ({gameName}) => {
           <img src={NinGameDB.nintendoTitle[gameName].chara} style={{width: '100%'}} alt="chara" />
           </Col>
           {/* 겜스샷 또는 영상 3~4 컨텐츠 */}
-          <ScreenshotList nintendoTitle={nintendoTitle}/>
+          <ScreenshotList nintendoTitle={nintendoTitle} gameName={index}/>
           {/* 시리즈게임 */}
-          <ETCtitleCSA nintendoTitle={nintendoTitle}/>
+          <ETCtitleCSA nintendoTitle={nintendoTitle} gameName={index}/>
         </Row>
       
     {/* {NinGameDB.nintendoTitle.map((nintendoTitle, i)=>{

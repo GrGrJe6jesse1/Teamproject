@@ -7,21 +7,7 @@
       "intro": "메트로이드",
       "chara": "http://localhost:3000/static/media/WI-Samus-.6846566da42cfcf7eddb.png",
       "SSList": [
-        {
-          "img1": "https://static.inven.co.kr/column/2023/02/12/news/i8266448929.jpg"
-        },
-        {
-          "img2": "https://static.inven.co.kr/column/2023/02/12/news/i8210122784.jpg"
-        },
-        {
-          "img3": "https://i3.ruliweb.com/ori/23/02/09/186334ca446242da.jpg"
-        },
-        {
-          "img4": "https://store.nintendo.co.kr/media/catalog/product/cache/8e3c84988db1fdb90470f4d01453d879/f/c/fce89cb0f04d99b94d816d18a90f9b0a0b276b2515550877ccd4027de7810ea4.jpg"
-        },
-        {
-          "img5": "https://i2.ruliweb.com/ori/23/02/09/186334c858b242da.jpg"
-        }
+        "https://store.nintendo.co.kr/media/catalog/product/cache/8e3c84988db1fdb90470f4d01453d879/f/c/fce89cb0f04d99b94d816d18a90f9b0a0b276b2515550877ccd4027de7810ea4.jpg"
       ],
       "symbol": "./metroidSS/metroid-icon.png",
       "ETCList": [

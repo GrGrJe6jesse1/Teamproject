@@ -11,9 +11,7 @@ const SSlistCSA = ({gameName}) => {
   },[]);
 
 
-  const SSLIST = [
-    
-  ]
+  const SSLIST = NinGameDB.nintendoTitle[gameName].SSList
   // [
   //   // {
   //   //   img: "https://www.nintendo.co.kr/images/renew/software/switch/aaaaa/img_switch_aaaaa_large_thumb01.jpg"
@@ -45,9 +43,8 @@ const SSlistCSA = ({gameName}) => {
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
-    autoplay: true,
-    autoplaySpeed: 3000
+    arrows: false,
+    autoplay: false,
   });
 
   return (
@@ -57,9 +54,13 @@ const SSlistCSA = ({gameName}) => {
           return(
             <div className='nin-sw-Sshot' key={i}>
               {/* <h1>클릭시 스크린샷 모달 생성</h1> */}
-              <Slider {...settings}>
-                <img src={a.img} onClick={SSModal} alt="zelda-screenshot" />
-              </Slider>
+              {/* <Slider {...settings}> */}
+                {SSLIST.map(function(a, img){
+                  return(
+                    <img src={a.img} key={img} alt="screenshot" />
+                  )
+                })}
+              {/* </Slider> */}
             </div>  
           )
         })
@@ -76,8 +77,6 @@ const SSlistCSA = ({gameName}) => {
               <img src={a.img} key={img} alt="zelda-screenshot" />
             )
           })}
-          {/* <button id='SS-btn-l'>좌</button>
-          <button id='SS-btn-r'>우</button> */}
         </div> 
       : null }
     </div>

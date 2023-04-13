@@ -6,7 +6,7 @@ import ETCtitleCSA from './ETCtitleCSA'
 import { Container, Row, Col } from 'react-bootstrap'
 import { useEffect, useState } from 'react'
 
-const NInTitleCSA = () => {
+const NInTitleCSA = ({gameName}) => {
   const [nintendoTitle, setNintendoTitle] = useState([]);
 
   useEffect(()=>{
@@ -16,26 +16,39 @@ const NInTitleCSA = () => {
 
   return (
     <Container className='title-container'>
-      {NinGameDB.nintendoTitle.map((nintendoTitle, i)=>{
-        return (
-          <Row className='title-back' style={{position: 'relative', width: '100%', height: "100%", overflow: 'hidden', borderRadius: '10px'}}>
-            {/* 백그라운드영상 또는 이미지 */}
-            <img src={nintendoTitle.back} style={{width: '100%'}} alt="background" />
-            {/* {nintendoTitle.back} */}
-            <Col className='nin-game-title'>
-              <img src={nintendoTitle.titleLogo} style={{width: '500px'}} alt="logo" />
-              {nintendoTitle && <p>{nintendoTitle.intro}</p>}
-            </Col>
-            <Col className='nin-chara'>
-              {/* 타이틀 캐릭터 이미지 */}
-            </Col>
-            {/* 겜스샷 또는 영상 3~4 컨텐츠 */}
-            <ScreenshotList nintendoTitle={nintendoTitle}/>
-            {/* 시리즈게임 */}
-            <ETCtitleCSA nintendoTitle={nintendoTitle}/>
-          </Row>
-        )
-      })}
+        <Row className='title-back' style={{position: 'relative', width: '100%', height: "100%", overflow: 'hidden', borderRadius: '10px'}}>
+          {/* 백그라운드 이미지 */}
+          <img src={NinGameDB.nintendoTitle[gameName].back} style={{width: '100%'}} alt="background" />
+          <Col className='nin-game-title'>
+            <img src={NinGameDB.nintendoTitle[gameName].titleLogo} style={{width: '500px'}} alt="logo" />
+            <p>{NinGameDB.nintendoTitle[gameName].intro}</p>
+          </Col>
+          <Col className='nin-chara'>
+            {/* 타이틀 캐릭터 이미지 */}
+          <img src={NinGameDB.nintendoTitle[gameName].chara} style={{width: '100%'}} alt="chara" />
+          </Col>
+          {/* 겜스샷 또는 영상 3~4 컨텐츠 */}
+          <ScreenshotList nintendoTitle={nintendoTitle}/>
+          {/* 시리즈게임 */}
+          <ETCtitleCSA nintendoTitle={nintendoTitle}/>
+        </Row>
+      
+    {/* {NinGameDB.nintendoTitle.map((nintendoTitle, i)=>{
+      return (
+        <Row className='title-back' style={{position: 'relative', width: '100%', height: "100%", overflow: 'hidden', borderRadius: '10px'}}>
+          {/* <img src={nintendoTitle.back} style={{width: '100%'}} alt="background" /> */}
+          {/* {nintendoTitle.back} */}
+          {/* <Col className='nin-game-title'>
+            <img src={nintendoTitle.titleLogo} style={{width: '500px'}} alt="logo" />
+            {nintendoTitle && <p>{nintendoTitle.intro}</p>}
+          </Col>
+          <Col className='nin-chara'>
+          </Col>
+          <ScreenshotList nintendoTitle={nintendoTitle}/>
+          <ETCtitleCSA nintendoTitle={nintendoTitle}/>
+        </Row>
+      )
+    })} */}
       {/* <Row className='title-back'> */}
         {/* 백그라운드영상 또는 이미지 */}
         {/* <Col className='nin-game-title'>

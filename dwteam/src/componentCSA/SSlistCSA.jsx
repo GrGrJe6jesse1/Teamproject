@@ -1,28 +1,34 @@
 import React from 'react'
+import NinGameDB from './NinGameDB.json'
 import { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
 import Slider from "react-slick";
-import ScrollMenu from 'react-horizontal-scrolling-menu'
+
+const SSlistCSA = ({gameName}) => {
+  const [nintendoTitle, setNintendoTitle] = useState([]);
+
+  useEffect(()=>{
+    setNintendoTitle(NinGameDB, nintendoTitle)
+  },[]);
 
 
-
-
-const SSlistCSA = () => {
   const SSLIST = [
-    {
-      img: "https://www.nintendo.co.kr/images/renew/software/switch/aaaaa/img_switch_aaaaa_large_thumb01.jpg"
-    },
-    {
-      // img: './zeldaSS/zeldaSS2.jpg'
-      img: "https://www.nintendo.co.kr/images/renew/software/switch/aaaaa/img_switch_aaaaa_large_thumb02.jpg"
-    },
-    {
-      img: "https://www.nintendo.co.kr/images/renew/software/switch/aaaaa/img_switch_aaaaa_large_thumb03.jpg"
-    },
-    {
-      img: "https://www.nintendo.co.kr/images/renew/software/switch/aaaaa/img_switch_aaaaa_large_thumb05.jpg"
-    }
+    
   ]
+  // [
+  //   // {
+  //   //   img: "https://www.nintendo.co.kr/images/renew/software/switch/aaaaa/img_switch_aaaaa_large_thumb01.jpg"
+  //   // },
+  //   // {
+  //   //   // img: './zeldaSS/zeldaSS2.jpg'
+  //   //   img: "https://www.nintendo.co.kr/images/renew/software/switch/aaaaa/img_switch_aaaaa_large_thumb02.jpg"
+  //   // },
+  //   // {
+  //   //   img: "https://www.nintendo.co.kr/images/renew/software/switch/aaaaa/img_switch_aaaaa_large_thumb03.jpg"
+  //   // },
+  //   // {
+  //   //   img: "https://www.nintendo.co.kr/images/renew/software/switch/aaaaa/img_switch_aaaaa_large_thumb05.jpg"
+  //   // }
+  // ]
   
 
   const [viewModal, setviewModal] = useState(false);

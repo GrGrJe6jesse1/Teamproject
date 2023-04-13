@@ -2,34 +2,34 @@
   "nintendoTitle": [
     {
       "id" : 0,
-      "titleLogo": "https://static.wikia.nocookie.net/nintendo/images/8/8c/Metroidlogo.png/revision/latest/thumbnail/width/360/height/360?cb=20200527100458&path-prefix=en",
-      "back": "./metroidSS/metroid-back.jpg",
+      "titleLogo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Metroid_Logo_2.png",
+      "back": "https://www.nintendo.co.jp/switch/a3sda/assets/img/world/bg_mv02.jpg",
       "intro": "메트로이드",
-      "chara": "./metroidSS/WI-Samus-.png",
+      "chara": "http://localhost:3000/static/media/WI-Samus-.6846566da42cfcf7eddb.png",
       "SSList": [
         {
-          "img": "./metroidSS/mtss1.jpg"
+          "img1": "https://static.inven.co.kr/column/2023/02/12/news/i8266448929.jpg"
         },
         {
-          "img": "./metroidSS/mtss2.jpg"
+          "img2": "https://static.inven.co.kr/column/2023/02/12/news/i8210122784.jpg"
         },
         {
-          "img": "./metroidSS/mtss3.jpg"
+          "img3": "https://i3.ruliweb.com/ori/23/02/09/186334ca446242da.jpg"
         },
         {
-          "img": "./metroidSS/mtss4.jpg"
+          "img4": "https://store.nintendo.co.kr/media/catalog/product/cache/8e3c84988db1fdb90470f4d01453d879/f/c/fce89cb0f04d99b94d816d18a90f9b0a0b276b2515550877ccd4027de7810ea4.jpg"
         },
         {
-          "img": "./metroidSS/mtss5.jpg"
+          "img5": "https://i2.ruliweb.com/ori/23/02/09/186334c858b242da.jpg"
         }
       ],
       "symbol": "./metroidSS/metroid-icon.png",
       "ETCList": [
         {
-          "img": "./metroidSS/mttitle1.jpg"
+          "img1": "./metroidSS/mttitle1.jpg"
         },
         {
-          "img": "./metroidSS/mttitle2.jpg"
+          "img2": "./metroidSS/mttitle2.jpg"
         }
       ]
     },
@@ -41,19 +41,19 @@
       "chara": "./zeldaSS/WI-Link.webp",
       "SSList": [
         {
-          "img": "./zeldaSS/zeldaSS1.jpg"
+          "img1": "./zeldaSS/zeldaSS1.jpg"
         },
         {
-          "img": "./zeldaSS/zeldaSS2.jpg"
+          "img2": "./zeldaSS/zeldaSS2.jpg"
         },
         {
-          "img": "./zeldaSS/zeldaSS3.jpg"
+          "img3": "./zeldaSS/zeldaSS3.jpg"
         },
         {
-          "img": "./zeldaSS/zeldaSS4.jpg"
+          "img4": "./zeldaSS/zeldaSS4.jpg"
         },
         {
-          "img": "./zeldaSS/zeldaSS4.jpg"
+          "img5": "./zeldaSS/zeldaSS4.jpg"
         }
       ],
       "symbol": "./zeldaSS/zelda-icon.png",
@@ -74,10 +74,10 @@
     },
     {
       "id" : 2,
-      "titleLogo": "./zeldaSS/zelda_logo.webp",
-      "back": "./zeldaSS/zelda-back.png",
+      "titleLogo": "https://www.pngmart.com/files/13/The-Legend-of-Zelda-Logo-PNG-Image.png",
+      "back": "https://www.nintendo.co.kr/front_images/banner/rolling/283/ea38d440ffd96f2493c15a566f8cf735.png",
       "intro": "젤다의 전설",
-      "chara": "./zeldaSS/WI-Link.webp",
+      "chara": "http://localhost:3000/static/media/WI-Link.480c0b451a6f7b87f430.webp",
       "SSList": [
         {
           "img": "./zeldaSS/zeldaSS1.jpg"
@@ -113,10 +113,10 @@
     },
     {
       "id" : 3,
-      "titleLogo": "./MarioSS/mario_logo.webp",
-      "back": "./MarioSS/mario-back.jpg",
+      "titleLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Mario_Series_Logo.svg/2560px-Mario_Series_Logo.svg.png",
+      "back": "https://www.nintendo.co.kr/software/switch/aaaca/img/index_bg01.jpg",
       "intro": "마리오",
-      "chara": "./MarioSS/WI-MARIO.webp",
+      "chara": "http://localhost:3000/static/media/WI-MARIO.3cf467c8943dd5163dfc.webp",
       "SSList": [
         {
           "img": "./MarioSS/marioss1.jpg"
@@ -152,10 +152,10 @@
     },
     {
       "id" : 4,
-      "titleLogo": "./FESS/fireemblem_logo.webp",
-      "back": "./FESS/fe-back.png",
+      "titleLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Fire_Emblem_logo.svg/2560px-Fire_Emblem_logo.svg.png",
+      "back": "https://www.nintendo.co.kr/software/switch/ayfna/assets/img/chara/crest_bg.jpg",
       "intro": "파이어 엠블렘",
-      "chara": "./FESS/WI-Alear-.png",
+      "chara": "http://localhost:3000/static/media/WI-Alear-.44bdf0007878abda14f5.png",
       "SSList": [
         {
           "img": "./FESS/fess1.jpg"
@@ -188,10 +188,10 @@
     },
     {
       "id" : 5,
-      "titleLogo": "./splatoonSS/splatoon-logo.png",
-      "back": "./splatoonSS/splatoon-back.png",
+      "titleLogo": "https://www.pngkit.com/png/full/209-2091697_splatoon-splatoon-logo-png.png",
+      "back": "https://www.nintendo.co.kr/software/switch/av5ja/assets/images/world/pc/hero_bg.png",
       "intro": "스플래툰",
-      "chara": "./splatoonSS/WI-Inkling-.png",
+      "chara": "http://localhost:3000/static/media/WI-Inkling-.a85f55cf9fa9d369e6ba.png",
       "SSList": [
         {
           "img": "./splatoonSS/spss1.jpg"
@@ -218,10 +218,10 @@
     },
     {
       "id" : 6,
-      "titleLogo": "./kirbySS/kirby_logo.webp",
-      "back": "./kirbySS/kirby-back.jpg",
+      "titleLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Kirby-Logo-New.svg/2560px-Kirby-Logo-New.svg.png",
+      "back": "https://www.nintendo.co.kr/software/switch/arzga/assets/img/top/bg_mouthful.jpg",
       "intro": "별의 커비",
-      "chara": "./kirbySS/WI-Kirby.png",
+      "chara": "http://localhost:3000/static/media/WI-Kirby.abea50611ea34a9d0ddf.png",
       "SSList": [
         {
           "img": "./kirbySS/kirbyss1.jpg"
@@ -257,10 +257,10 @@
     },
     {
       "id" : 7,
-      "titleLogo": "./ACSS/visual_logo__pc.png",
-      "back": "./ACSS/AC-back.jpg",
+      "titleLogo": "https://assets.stickpng.com/images/5b4a216ec051e602a568cd7e.png",
+      "back": "https://www.nintendo.co.kr/software/switch/acbaa/assets/images/top/visual_bg_pc.jpg",
       "intro": "동물의 숲",
-      "chara": "./ACSS/WI-villager.png",
+      "chara": "http://localhost:3000/static/media/WI-villager.5670ad9c3bbd25ea51a1.png",
       "SSList": [
         {
           "img": "./ACSS/ACss1.jpg"
@@ -287,10 +287,10 @@
     },
     {
       "id" : 8,
-      "titleLogo": "./pokemonSS/pokemon_logo.webp",
-      "back": "./pokemonSS/pokemon-back.jpg",
+      "titleLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png",
+      "back": "https://www.pokemon.co.jp/ex/sv/assets/img/story/ja/220803_02/story_img_01.jpg",
       "intro": "포켓몬스터",
-      "chara": "./pokemonSS/WI-pikachu-.png",
+      "chara": "http://localhost:3000/static/media/WI-pikachu-.7f8e389b7ad25bd80f42.png",
       "SSList": [
         {
           "img": "./pokemonSS/pkss1.png"
@@ -320,7 +320,7 @@
           "img": "./pokemonSS/pktitlescvi.jpg"
         },
         {
-          "img": "./pokemonSS/pktitleswsh.jpg"
+          "img": "./pokemonSS/zeldaSS1.jpg"
         }
       ]
     }
